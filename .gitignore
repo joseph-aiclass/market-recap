@@ -1,0 +1,15 @@
+node_modules/
+
+# Local tooling — not part of the published site
+.agents/
+.archify/
+skills-lock.json
+
+# Run logs stay local
+logs/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+data/latest.json.tmp

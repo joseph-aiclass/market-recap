@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>US + HK Market Recap — 07:00 HKT</title>
+<meta name="description" content="Daily recap of the last completed US and Hong Kong sessions: index moves, notable gainers and decliners, and a separate AI-stock section. Generated at 07:00 Hong Kong time." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23060a10'/%3E%3Cpath d='M6 21l6-7 5 4 9-11' stroke='%232fe3a4' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/style.css" />
+<script>
+  // Apply saved preferences before first paint to avoid a flash.
+  (function () {
+    try {
+      var qs = new URLSearchParams(location.search);
+      var theme = localStorage.getItem("recap-theme");
+      if (!theme) theme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      var themeParam = qs.get("theme");
+      if (themeParam === "light" || themeParam === "dark") theme = themeParam;
+      document.documentElement.dataset.theme = theme;
+
+      var lang = localStorage.getItem("recap-lang") === "zh" ? "zh" : "en";
+      var langParam = qs.get("lang");
+      if (langParam === "zh" || langParam === "en") lang = langParam;
+      document.documentElement.lang = lang === "zh" ? "zh-Hant-HK" : "en";
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+
+<div class="tape" aria-hidden="true"><div class="tape-track" id="tapeTrack"></div></div>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-word">MARKET<b>RECAP</b></span>
+      <span class="chip chip-accent">07:00 HKT</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#overview" data-i18n="navOverview">Overview</a>
+      <a href="#movers" data-i18n="navMovers">Movers</a>
+      <a href="#ai" data-i18n="navAI">AI complex</a>
+      <a href="#hk" data-i18n="navHK">Hong Kong</a>
+      <a href="#brief" data-i18n="navBrief">Brief</a>
+      <a href="#method" data-i18n="navMethod">Method</a>
+    </nav>
+    <div class="tools">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch theme" title="Switch theme">
+        <svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.6M12 19v2.6M2.4 12h2.6M19 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></svg>
+        <svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+      </button>
+      <div class="seg" role="group" aria-label="Language">
+        <button class="seg-btn is-active" type="button" data-lang="en">EN</button>
+        <button class="seg-btn" type="button" data-lang="zh">繁</button>
+      </div>
+      <div class="status" title="Data fetched from Yahoo Finance">
+        <span class="pulse" aria-hidden="true"></span>
+        <span id="syncLabel">syncing…</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <div class="notice" id="dataNotice" hidden></div>
+  </div>
+
+  <section class="wrap hero">
+    <div class="hero-copy">
+      <p class="eyebrow">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span data-i18n="eyebrow">Daily US equities brief</span>
+        <span class="sep">/</span>
+        <span id="heroDate">—</span>
+      </p>
+      <h1 id="headline">—</h1>
+      <p class="dek" id="dek">—</p>
+      <div class="badges">
+        <span class="pill tone" id="tonePill">—</span>
+        <span class="pill" id="sessionPill">—</span>
+        <span class="pill" id="wordsPill">—</span>
+      </div>
+    </div>
+
+    <aside class="pulse-card" aria-label="AI breadth">
+      <div class="pulse-head">
+        <span data-i18n="aiBreadthLabel">AI breadth</span>
+        <span class="tiny" id="aiTotalLabel">—</span>
+      </div>
+      <div class="donut" id="donut">
+        <div class="donut-hole">
+          <strong id="donutValue">—</strong>
+          <span data-i18n="advanced">advanced</span>
+        </div>
+      </div>
+      <div class="pulse-foot">
+        <div><span class="k" data-i18n="tone">Tone</span><span class="v" id="toneText">—</span></div>
+        <div><span class="k" data-i18n="fiveDay">5-day S&amp;P 500</span><span class="v" id="weekText">—</span></div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="wrap section" id="overview">
+    <div class="section-head">
+      <h2 data-i18n="overviewTitle">Market overview</h2>
+      <p class="section-note"><span data-i18n="overviewNote">Last completed session</span> · <span id="sessionLabel">—</span> · <span id="closeLabel">16:00 ET</span></p>
+    </div>
+
+    <div class="idx-grid" id="idxGrid"></div>
+
+    <div class="overview-grid">
+      <div class="panel">
+        <div class="panel-head">
+          <h3 data-i18n="driversTitle">What drove it</h3>
+          <span class="tiny" data-i18n="driversNote">headlines via Yahoo Finance</span>
+        </div>
+        <div class="driver-list" id="driverList"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <h3 data-i18n="crossTitle">Cross-asset</h3>
+          <span class="tiny" data-i18n="crossNote">session close</span>
+        </div>
+        <div class="cross-list" id="crossList"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section" id="movers">
+    <div class="section-head">
+      <h2 data-i18n="moversTitle">Highlighted stocks</h2>
+      <p class="section-note" data-i18n="moversNote">The session's most notable movers — gainers and decliners</p>
+    </div>
+    <div class="movers-grid" id="moversGrid"></div>
+  </section>
+
+  <section class="wrap section ai-section" id="ai">
+    <div class="section-head">
+      <h2><span class="violet-dot" aria-hidden="true"></span><span data-i18n="aiTitle">AI-related stocks</span></h2>
+      <p class="section-note"><span id="aiBreadth">—</span> · <span data-i18n="aiNote">a separate read on the AI complex</span></p>
+    </div>
+    <div class="ai-highlight" id="aiHighlight"></div>
+    <div class="ai-groups" id="aiGroups"></div>
+  </section>
+
+  <section class="wrap section hk-section" id="hk">
+    <div class="section-head">
+      <h2><span class="hk-dot" aria-hidden="true"></span><span data-i18n="hkTitle">Hong Kong market</span></h2>
+      <p class="section-note"><span data-i18n="hkNote">Same-day HK session</span> · <span id="hkSessionLabel">—</span> · <span id="hkCloseLabel">16:00 HKT</span></p>
+    </div>
+
+    <div class="idx-grid idx-grid-3" id="hkIdxGrid"></div>
+
+    <div class="hk-breadth" id="hkBreadth"></div>
+
+    <div class="movers-grid" id="hkMoversGrid"></div>
+  </section>
+
+  <section class="wrap section" id="brief">
+    <div class="brief-grid">
+      <div class="panel brief-panel">
+        <div class="panel-head">
+          <h3 data-i18n="briefTitle">Plain-text brief</h3>
+          <div class="brief-actions">
+            <span class="pill" id="wordBadge">—</span>
+            <button class="btn" id="copyBtn" type="button" data-i18n="copy">Copy</button>
+            <button class="btn ghost" id="downloadBtn" type="button" data-i18n="download">Download .md</button>
+          </div>
+        </div>
+        <pre id="briefText">Loading…</pre>
+      </div>
+
+      <div class="panel method" id="method">
+        <div class="panel-head">
+          <h3 data-i18n="methodTitle">How this is built</h3>
+          <span class="tiny" data-i18n="methodNote">no API key</span>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-n">01</span>
+            <div>
+              <b data-i18n="step1Title">Fetch</b>
+              <p data-i18n="step1Body">Yahoo Finance chart API for both markets, the cross-asset gauges and 23 AI-linked names; predefined screener for the day's US gainers and losers; search API for catalyst headlines.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-n">02</span>
+            <div>
+              <b data-i18n="step2Title">Compute</b>
+              <p data-i18n="step2Body">Close vs. prior close for every symbol, rank movers by % change (market cap ≥ $8B, price ≥ $10), keep both directions, then attach a catalyst. Human-checked overrides live in data/catalysts.json.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-n">03</span>
+            <div>
+              <b data-i18n="step3Title">Publish</b>
+              <p data-i18n="step3Body">Write data/latest.json, render this static dashboard in English or Traditional Chinese, and cap the English brief at 500 words.</p>
+            </div>
+          </li>
+        </ol>
+        <pre class="cmd">node scripts/fetch_data.mjs</pre>
+        <p class="file-note"><span>→</span> data/latest.json <span>→</span> index.html</p>
+        <div class="endpoints">
+          <div><span>chart</span><code>/v8/finance/chart/{symbol}</code></div>
+          <div><span>screener</span><code>/v1/finance/screener/predefined/saved</code></div>
+          <div><span>news</span><code>/v1/finance/search?q={ticker}</code></div>
+        </div>
+        <a class="raw-link" href="data/latest.json" target="_blank" rel="noopener">View raw data/latest.json →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <div class="footer-left">
+    <span class="brand-mini">MARKET<b>RECAP</b></span>
+    <span class="tiny" data-i18n="footerNote">Auto-generated from public Yahoo Finance endpoints.</span>
+  </div>
+  <div class="footer-meta">
+    <span id="footerStamp">—</span>
+    <span class="dot-sep">·</span>
+    <span data-i18n="disclaimer">Not financial advice.</span>
+  </div>
+</footer>
+
+<noscript><p class="wrap noscript">This dashboard needs JavaScript to render <code>data/latest.json</code>.</p></noscript>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "_comment": "Optional human-checked catalyst overrides, keyed by session date then ticker. `text` is English, `zh` is Traditional Chinese. Delete an entry to fall back to automatic headline selection.",
+  "2026-11-06": {
+    "FROG": {
+      "text": "Q3 earnings blowout: revenue and guidance topped estimates, AI coding was the biggest growth driver, and BofA, RBC and Truist raised targets to about $120.",
+      "zh": "第三季業績遠超預期，收入及指引均勝預期，AI 編程為最大增長動力；美銀、RBC 及 Truist 先後上調目標價至約 120 美元。",
+      "publisher": "Barron's",
+      "url": "https://finance.yahoo.com/m/a3bb50b2-48f1-3b8b-b19f-09f5ef3d6b72/jfrog-posts-blowout-earnings..html"
+    },
+    "IONQ": {
+      "text": "Q3 swung to a profit, revenue jumped 336% and the company raised full-year guidance.",
+      "zh": "第三季轉虧為盈，收入按年大增 336%，並上調全年指引。",
+      "publisher": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-stocks-surge-10-93-190759019.html"
+    },
+    "IREN": {
+      "text": "Fiscal Q1 showed strong AI cloud revenue growth and a 61% smaller net loss.",
+      "zh": "第一財季 AI 雲業務收入強勁增長，淨虧損收窄 61%。",
+      "publisher": "Motley Fool",
+      "url": ""
+    },
+    "DKNG": {
+      "text": "Cut its 2027 outlook on heavier prediction-business spending; BofA flagged a reset in expectations.",
+      "zh": "下調 2027 年展望，主因預測市場業務開支增加；美銀指市場預期需要重置。",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/draftkings-inc-dkng-q3-2026-211638073.html"
+    },
+    "AXON": {
+      "text": "Q3 revenue miss plus a guidance cut, with delayed drone deals and a $1.2 billion Skydio bet weighing on the stock.",
+      "zh": "第三季收入遜預期兼下調指引，無人機訂單延誤及 12 億美元 Skydio 投資拖累股價。",
+      "publisher": "TIKR",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axon-sinks-17-revenue-miss-150908631.html"
+    },
+    "TEAM": {
+      "text": "Fiscal 2027 growth outlook slowed sharply, overshadowing a Q1 earnings beat.",
+      "zh": "2027 財年增長展望明顯放緩，蓋過第一季業績勝預期的利好。",
+      "publisher": "TIKR",
+      "url": "https://finance.yahoo.com/technology/articles/atlassian-team-said-q1-earnings-211440997.html"
+    },
+    "AMD": {
+      "text": "Record quarterly revenue and a stronger growth outlook; led the chip rebound after Thursday's rout.",
+      "zh": "季度收入創新高，增長前景轉強；帶領晶片股從週四跌勢反彈。",
+      "publisher": "Motley Fool",
+      "url": ""
+    },
+    "ANET": {
+      "text": "Fastest growth since its IPO as Big Tech moves beyond Nvidia; rebounded with the AI-networking group.",
+      "zh": "上市以來最快增長，受惠大型科技企業逐步減少依賴 Nvidia；帶動 AI 網絡板塊反彈。",
+      "publisher": "Barchart",
+      "url": ""
+    },
+    "TSM": {
+      "text": "Reported to be weighing advanced memory-chip production for Nvidia; joined the broader chip rebound.",
+      "zh": "據報正考慮為 Nvidia 生產先進記憶體晶片；隨晶片板塊反彈。",
+      "publisher": "TIKR",
+      "url": ""
+    },
+    "CRM": {
+      "text": "No company-specific catalyst; software names stayed under pressure after the sector's AI-driven selloff.",
+      "zh": "暫無公司層面消息；軟件股在 AI 相關拋售後持續受壓。",
+      "publisher": "",
+      "url": ""
+    },
+    "MSFT": {
+      "text": "Reported pullback from key neocloud data-center deals added to AI-infrastructure caution.",
+      "zh": "據報縮減與新興雲端業者的數據中心交易，加深市場對 AI 基建的審慎情緒。",
+      "publisher": "Simply Wall St.",
+      "url": ""
+    },
+
+    "2331.HK": {
+      "text": "No company-specific news; sportswear held up while the Hang Seng fell, led by technology.",
+      "zh": "暫無公司消息；恒指由科技股領跌，體育用品股逆市靠穩。",
+      "publisher": "",
+      "url": ""
+    },
+    "1347.HK": {
+      "text": "Defied the chip selloff after results and guidance beat expectations.",
+      "zh": "業績及指引勝預期，逆晶片股跌勢向上。",
+      "publisher": "Investing.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/china-hua-hong-defies-chip-064013706.html"
+    },
+    "0883.HK": {
+      "text": "No company-specific news; edged higher as energy held up while Hong Kong tech sold off.",
+      "zh": "暫無公司消息；港股科技股下挫，能源股靠穩。",
+      "publisher": "",
+      "url": ""
+    },
+    "0981.HK": {
+      "text": "No company-specific news; tracked the global chip pullback and a Reuters report that Nvidia chips are piling up in Hong Kong.",
+      "zh": "暫無公司消息；跟隨全球晶片股回落，此前路透報道指 Nvidia 晶片在港積壓。",
+      "publisher": "Reuters",
+      "url": "https://finance.yahoo.com/news/exclusive-nvidia-chips-pile-hong-101958631.html"
+    },
+    "9988.HK": {
+      "text": "Slid as Hong Kong tech cooled after the Hunyuan-led rally; September-quarter results are due November 19.",
+      "zh": "港股科技股在混元帶動的反彈後降溫；9 月季度業績將於 11 月 19 日公布。",
+      "publisher": "GuruFocus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-announce-september-quarter-090000104.html"
+    },
+    "0992.HK": {
+      "text": "No company-specific news in the wires; slipped with the broader hardware and technology complex.",
+      "zh": "暫無公司消息；隨硬件及科技板塊整體回落。",
+      "publisher": "",
+      "url": ""
+    }
+  }
+}
