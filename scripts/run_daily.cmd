@@ -1,9 +1,9 @@
 @echo off
-REM run_daily.cmd — the entry point the scheduled task calls at 07:00 HKT.
-REM Wraps fetch_data.mjs so every run leaves a line in logs\fetch.log, then
-REM publishes the refreshed snapshot to GitHub Pages.
-REM Appends, never truncates, so a history of runs survives.
-REM Exit code is passed through: 1 means the run was degraded (see fetch_data.mjs).
+REM run_daily.cmd - entry point the scheduled task calls at 07:00 HKT.
+REM Runs fetch_data.mjs, logs the run, then publishes the refreshed snapshot
+REM to GitHub Pages. Uses labels (not nested if-blocks) because cmd.exe is
+REM unreliable with multi-line parenthesised blocks.
+REM Exit code passes through: 1 means the run was degraded (see fetch_data.mjs).
 
 setlocal
 cd /d "%~dp0.."
@@ -11,41 +11,53 @@ chcp 65001 >nul
 
 if not exist "logs" mkdir "logs"
 
-echo. >> "logs\fetch.log"
-echo [%DATE% %TIME%] run start >> "logs\fetch.log"
+echo.>>"logs\fetch.log"
+echo [%DATE% %TIME%] run start>>"logs\fetch.log"
 
-node "scripts\fetch_data.mjs" >> "logs\fetch.log" 2>&1
+node "scripts\fetch_data.mjs">>"logs\fetch.log" 2>&1
 set "CODE=%ERRORLEVEL%"
 
-if not "%CODE%"=="0" (
-  echo [%DATE% %TIME%] DEGRADED RUN, exit %CODE% >> "logs\fetch.log"
-)
+if not "%CODE%"=="0" echo [%DATE% %TIME%] DEGRADED RUN, exit %CODE%>>"logs\fetch.log"
 
-REM --- publish to GitHub Pages -------------------------------------------
-REM Only when the data actually changed. A failed push must never block the
-REM next run, so failures are logged and the script still exits with CODE.
+REM Never publish a degraded snapshot: partial data is worse than yesterday's.
+if not "%CODE%"=="0" goto degraded
+
 git rev-parse --is-inside-work-tree >nul 2>&1
-if errorlevel 1 (
-  echo [%DATE% %TIME%] git not available, skipping publish >> "logs\fetch.log"
-) else (
-  git add -A >> "logs\fetch.log" 2>&1
-  git diff --cached --quiet
-  if errorlevel 1 (
-    git commit -m "data: daily recap refresh %DATE% %TIME%" >> "logs\fetch.log" 2>&1
-    if errorlevel 1 (
-      echo [%DATE% %TIME%] commit failed, skipping push >> "logs\fetch.log"
-    ) else (
-      git push origin main >> "logs\fetch.log" 2>&1
-      if errorlevel 1 (
-        echo [%DATE% %TIME%] push failed, will retry next run >> "logs\fetch.log"
-      ) else (
-        echo [%DATE% %TIME%] published to GitHub Pages >> "logs\fetch.log"
-      )
-    )
-  ) else (
-    echo [%DATE% %TIME%] no changes to publish >> "logs\fetch.log"
-  )
-)
+if errorlevel 1 goto nogit
 
-echo [%DATE% %TIME%] run end, exit %CODE% >> "logs\fetch.log"
+git add -A >>"logs\fetch.log" 2>&1
+git diff --cached --quiet
+if not errorlevel 1 goto nochange
+
+git commit -m "data: daily recap refresh %DATE% %TIME%">>"logs\fetch.log" 2>&1
+if errorlevel 1 goto commitfail
+
+git push origin main>>"logs\fetch.log" 2>&1
+if errorlevel 1 goto pushfail
+
+echo [%DATE% %TIME%] published to GitHub Pages>>"logs\fetch.log"
+goto end
+
+:degraded
+echo [%DATE% %TIME%] degraded run, snapshot not published>>"logs\fetch.log"
+goto end
+
+:nogit
+echo [%DATE% %TIME%] git unavailable, skipping publish>>"logs\fetch.log"
+goto end
+
+:nochange
+echo [%DATE% %TIME%] no changes to publish>>"logs\fetch.log"
+goto end
+
+:commitfail
+echo [%DATE% %TIME%] commit failed, skipping push>>"logs\fetch.log"
+goto end
+
+:pushfail
+echo [%DATE% %TIME%] push failed, will retry next run>>"logs\fetch.log"
+goto end
+
+:end
+echo [%DATE% %TIME%] run end, exit %CODE%>>"logs\fetch.log"
 exit /b %CODE%
