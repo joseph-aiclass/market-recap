@@ -34,6 +34,12 @@ if not errorlevel 1 goto nochange
 git commit -m "data: daily recap refresh %DATE% %TIME%" >> "logs\fetch.log" 2>&1
 if errorlevel 1 goto commitfail
 
+REM The GitHub Actions workflow can push the same file at the same time, so
+REM rebase before pushing; otherwise this clone diverges and every later push
+REM is rejected. A rebase failure means a real conflict, so stop there.
+git pull --rebase --autostash origin main >> "logs\fetch.log" 2>&1
+if errorlevel 1 goto rebasefail
+
 git push origin main >> "logs\fetch.log" 2>&1
 if errorlevel 1 goto pushfail
 
@@ -54,6 +60,10 @@ goto end
 
 :commitfail
 echo [%DATE% %TIME%] commit failed, skipping push >> "logs\fetch.log"
+goto end
+
+:rebasefail
+echo [%DATE% %TIME%] rebase conflict, manual fix needed >> "logs\fetch.log"
 goto end
 
 :pushfail
