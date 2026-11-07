@@ -11,7 +11,7 @@ Produce a daily recap of the **US stock market's most recent session** ("last ni
 - Always report on the **most recently completed US trading session**, not the current one.
 - If the US market was closed (weekend, public holiday, or halted), say so in one line and recap the last completed session instead. Do not invent data.
 
-> Note: a schedule entry only describes the cadence. The data refresh is wired to a Windows scheduled task named `MarketRecap 0700 HKT`, which runs `scripts\run_daily.cmd` daily at 07:00 local (this machine is UTC+08:00) and appends to `logs\fetch.log`; verify it with `Get-ScheduledTaskInfo -TaskName "MarketRecap 0700 HKT"`. The task refreshes the snapshot, but it does not itself write this brief — if a run is missing or degraded, say so rather than silently skipping.
+> Note: a schedule entry only describes the cadence. The snapshot refresh is wired to the GitHub Actions workflow `.github/workflows/update-data.yml`, which runs at 23:00 UTC (07:00 Asia/Hong_Kong) on GitHub's runners, writes `data/latest.json`, commits it, and lets GitHub Pages redeploy the live site at https://joseph-aiclass.github.io/market-recap/ . Check it with `gh run list --workflow update-data.yml --repo joseph-aiclass/market-recap`. The workflow refreshes the snapshot, but it does not itself write this brief — if a run is missing or degraded, say so rather than silently skipping. The local Windows task `MarketRecap 0700 HKT` (which runs `scripts\run_daily.cmd`) is **disabled** and kept only for manual runs, so it cannot race the workflow.
 
 ## Output requirements
 
