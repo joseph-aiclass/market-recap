@@ -38,6 +38,7 @@ const I18N = {
     navAI: "AI complex",
     navBrief: "Brief",
     navMethod: "Method",
+    navWorkflow: "Workflow",
 
     eyebrow: "Daily US & Hong Kong brief",
     aiBreadthLabel: "AI breadth",
@@ -125,6 +126,7 @@ const I18N = {
     navAI: "AI 板塊",
     navBrief: "摘要",
     navMethod: "方法",
+    navWorkflow: "流程圖",
 
     eyebrow: "每日美股 · 港股簡報",
     aiBreadthLabel: "AI 板塊廣度",

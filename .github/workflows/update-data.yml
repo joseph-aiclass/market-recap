@@ -1,0 +1,43 @@
+name: Update market data
+
+# 23:00 UTC is 07:00 Asia/Hong_Kong (UTC+8, no DST), so this refreshes the
+# snapshot for the session that just closed in New York.
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # The script exits 1 when more than three symbols fail. Warn instead of
+      # failing the job, so a partial snapshot still publishes and the run is
+      # visible as an annotation rather than a red X.
+      - name: Fetch the last completed session
+        run: node scripts/fetch_data.mjs || echo "::warning::Degraded run — some symbols failed to fetch"
+
+      - name: Commit the refreshed snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          if git diff --staged --quiet; then
+            echo "No change in data/latest.json"
+          else
+            git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
