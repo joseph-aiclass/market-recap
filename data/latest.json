@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-11-07T23:30:12.297Z",
-    "generatedAtHKT": "Sun, 08 Nov 2026, 07:30",
-    "todayET": "2026-11-07",
-    "todayHKT": "2026-11-08",
-    "weekdayET": "Saturday",
+    "generatedAt": "2026-11-08T23:31:46.836Z",
+    "generatedAtHKT": "Mon, 09 Nov 2026, 07:31",
+    "todayET": "2026-11-08",
+    "todayHKT": "2026-11-09",
+    "weekdayET": "Sunday",
     "sessionDate": "2026-11-06",
     "sessionLabel": "Friday, November 6, 2026",
     "sessionLabelZh": "2026年11月6日星期五",
@@ -101,7 +101,7 @@
       "name": "Russell 2000",
       "nameZh": "羅素2000",
       "short": "RUT",
-      "price": 2754.1055,
+      "price": 2754.105,
       "changePct": 0.8872231407427211,
       "weekChangePct": -2.053103258516298,
       "spark": [
@@ -131,16 +131,16 @@
       "key": "dxy",
       "label": "US Dollar (DXY)",
       "labelZh": "美匯指數",
-      "display": "102.28",
-      "changePct": 0.7385524150282263,
+      "display": "102.24",
+      "changePct": -0.05767911587923891,
       "changeBp": null
     },
     {
       "key": "wti",
       "label": "WTI crude",
       "labelZh": "紐約期油",
-      "display": "$90.83",
-      "changePct": 0.3424714974423537,
+      "display": "$90.20",
+      "changePct": -0.693608796776557,
       "changeBp": null
     },
     {
@@ -155,13 +155,13 @@
   "overview": [
     "Indices: SPX +0.3% to 7,376.86 · COMP +1.1% to 24,579.42 · DJI -0.5% to 51,285.73 · RUT +0.9% to 2,754.11.",
     "Drivers: no single macro catalyst dominated the session.",
-    "Cross-asset: 10Y 4.86% (+2bp) · DXY 102.28 (+0.7%) · WTI $90.83 (+0.3%) · VIX 25.64 (-9.0%).",
+    "Cross-asset: 10Y 4.86% (+2bp) · DXY 102.24 (-0.1%) · WTI $90.20 (-0.7%) · VIX 25.64 (-9.0%).",
     "Tone: risk-on. The S&P 500 is -2.7% over five sessions and the AI complex rose in 18 of 23 names."
   ],
   "overviewZh": [
     "指數：標普500 +0.3% 至 7,376.86 · 納斯達克綜合 +1.1% 至 24,579.42 · 道瓊斯 -0.5% 至 51,285.73 · 羅素2000 +0.9% 至 2,754.11。",
     "消息面：本交易日未有單一主導因素。",
-    "跨資產：10年期債息 4.86%（+2bp）· 美匯指數 102.28（+0.7%）· 紐約期油 $90.83（+0.3%）· VIX 25.64（-9.0%）。",
+    "跨資產：10年期債息 4.86%（+2bp）· 美匯指數 102.24（-0.1%）· 紐約期油 $90.20（-0.7%）· VIX 25.64（-9.0%）。",
     "市況：風險偏好。標普500 五個交易日跌 2.7%；AI 板塊 23 隻中有 18 隻上升。"
   ],
   "drivers": [],
@@ -171,7 +171,7 @@
         "sym": "FROG",
         "name": "JFrog",
         "price": 100.98,
-        "changePct": 35.3256,
+        "changePct": 35.32565,
         "direction": "up",
         "reason": "Q3 earnings blowout: revenue and guidance topped estimates, AI coding was the biggest growth driver, and BofA, RBC and Truist raised targets to about $120.",
         "reasonZh": "第三季業績遠超預期，收入及指引均勝預期，AI 編程為最大增長動力；美銀、RBC 及 Truist 先後上調目標價至約 120 美元。",
@@ -193,7 +193,7 @@
         "sym": "IREN",
         "name": "IREN",
         "price": 21.64,
-        "changePct": 20.0222,
+        "changePct": 20.022179,
         "direction": "up",
         "reason": "Fiscal Q1 showed strong AI cloud revenue growth and a 61% smaller net loss.",
         "reasonZh": "第一財季 AI 雲業務收入強勁增長，淨虧損收窄 61%。",
@@ -206,7 +206,7 @@
         "sym": "DKNG",
         "name": "DraftKings",
         "price": 18.51,
-        "changePct": -21.301,
+        "changePct": -21.301022,
         "direction": "down",
         "reason": "Cut its 2027 outlook on heavier prediction-business spending; BofA flagged a reset in expectations.",
         "reasonZh": "下調 2027 年展望，主因預測市場業務開支增加；美銀指市場預期需要重置。",
@@ -217,7 +217,7 @@
         "sym": "AXON",
         "name": "Axon Enterprise",
         "price": 313,
-        "changePct": -18.1828,
+        "changePct": -18.182768,
         "direction": "down",
         "reason": "Q3 revenue miss plus a guidance cut, with delayed drone deals and a $1.2 billion Skydio bet weighing on the stock.",
         "reasonZh": "第三季收入遜預期兼下調指引，無人機訂單延誤及 12 億美元 Skydio 投資拖累股價。",
@@ -228,7 +228,7 @@
         "sym": "TEAM",
         "name": "Atlassian",
         "price": 153.68,
-        "changePct": -16.1547,
+        "changePct": -16.154728,
         "direction": "down",
         "reason": "Fiscal 2027 growth outlook slowed sharply, overshadowing a Q1 earnings beat.",
         "reasonZh": "2027 財年增長展望明顯放緩，蓋過第一季業績勝預期的利好。",
@@ -958,6 +958,6 @@
     "downCount": 22,
     "total": 31
   },
-  "brief": "US Market Recap — Friday, November 6, 2026\n\nUS markets are closed today (Saturday). Below is the last completed session.\n\nMarket overview\n- Indices: SPX +0.3% to 7,376.86 · COMP +1.1% to 24,579.42 · DJI -0.5% to 51,285.73 · RUT +0.9% to 2,754.11.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 4.86% (+2bp) · DXY 102.28 (+0.7%) · WTI $90.83 (+0.3%) · VIX 25.64 (-9.0%).\n- Tone: risk-on. The S&P 500 is -2.7% over five sessions and the AI complex rose in 18 of 23 names.\n\nHighlighted stocks\n- FROG (+35.3%) — Q3 earnings blowout: revenue and guidance topped estimates, AI coding was the biggest growth driver, and BofA, RBC and Truist raised targets to about $120.\n- IONQ (+23.4%) — Q3 swung to a profit, revenue jumped 336% and the company raised full-year guidance.\n- IREN (+20.0%) — Fiscal Q1 showed strong AI cloud revenue growth and a 61% smaller net loss.\n- DKNG (-21.3%) — Cut its 2027 outlook on heavier prediction-business spending; BofA flagged a reset in expectations.\n- AXON (-18.2%) — Q3 revenue miss plus a guidance cut, with delayed drone deals and a $1.2 billion Skydio bet weighing on the stock.\n- TEAM (-16.2%) — Fiscal 2027 growth outlook slowed sharply, overshadowing a Q1 earnings beat.\n\nAI-related stocks\n- AMD (+11.0%) — Record quarterly revenue and a stronger growth outlook; led the chip rebound after Thursday's rout.\n- ANET (+7.3%) — Fastest growth since its IPO as Big Tech moves beyond Nvidia; rebounded with the AI-networking group.\n- TSM (+6.3%) — Reported to be weighing advanced memory-chip production for Nvidia; joined the broader chip rebound.\n- CRM (-3.9%) — No company-specific catalyst; software names stayed under pressure after the sector's AI-driven selloff.\n- MSFT (-1.0%) — Reported pullback from key neocloud data-center deals added to AI-infrastructure caution.\n\nHong Kong market\n- Indices: HSI -1.3% to 24,481.86 · HSTECH -1.8% to 4,078.23 · HSCE -1.1% to 8,274.10.\n- Breadth: 8 of 31 focus stocks advanced; 22 declined.\n- 2331.HK (+5.2%) — No company-specific news; sportswear held up while the Hang Seng fell, led by technology.\n- 1347.HK (+4.3%) — Defied the chip selloff after results and guidance beat expectations.\n- 0981.HK (-4.0%) — No company-specific news; tracked the global chip pullback and a Reuters report that Nvidia chips are piling up in Hong Kong.\n- 9988.HK (-3.8%) — Slid as Hong Kong tech cooled after the Hunyuan-led rally; September-quarter results are due November 19.\n\nNot financial advice.",
-  "briefZh": "美股收市摘要 — 2026年11月6日星期五\n\n今天美股休市（週六）。以下為對上一個交易日的總結。\n\n市場概覽\n- 指數：標普500 +0.3% 至 7,376.86 · 納斯達克綜合 +1.1% 至 24,579.42 · 道瓊斯 -0.5% 至 51,285.73 · 羅素2000 +0.9% 至 2,754.11。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 4.86%（+2bp）· 美匯指數 102.28（+0.7%）· 紐約期油 $90.83（+0.3%）· VIX 25.64（-9.0%）。\n- 市況：風險偏好。標普500 五個交易日跌 2.7%；AI 板塊 23 隻中有 18 隻上升。\n\n重點股票\n- FROG（+35.3%）— 第三季業績遠超預期，收入及指引均勝預期，AI 編程為最大增長動力；美銀、RBC 及 Truist 先後上調目標價至約 120 美元。\n- IONQ（+23.4%）— 第三季轉虧為盈，收入按年大增 336%，並上調全年指引。\n- IREN（+20.0%）— 第一財季 AI 雲業務收入強勁增長，淨虧損收窄 61%。\n- DKNG（-21.3%）— 下調 2027 年展望，主因預測市場業務開支增加；美銀指市場預期需要重置。\n- AXON（-18.2%）— 第三季收入遜預期兼下調指引，無人機訂單延誤及 12 億美元 Skydio 投資拖累股價。\n- TEAM（-16.2%）— 2027 財年增長展望明顯放緩，蓋過第一季業績勝預期的利好。\n\nAI 相關股票\n- AMD（+11.0%）— 季度收入創新高，增長前景轉強；帶領晶片股從週四跌勢反彈。\n- ANET（+7.3%）— 上市以來最快增長，受惠大型科技企業逐步減少依賴 Nvidia；帶動 AI 網絡板塊反彈。\n- TSM（+6.3%）— 據報正考慮為 Nvidia 生產先進記憶體晶片；隨晶片板塊反彈。\n- CRM（-3.9%）— 暫無公司層面消息；軟件股在 AI 相關拋售後持續受壓。\n- MSFT（-1.0%）— 據報縮減與新興雲端業者的數據中心交易，加深市場對 AI 基建的審慎情緒。\n\n香港市場\n- 指數：恒生指數 -1.3% 至 24,481.86 · 恒生科技指數 -1.8% 至 4,078.23 · 國企指數 -1.1% 至 8,274.10。\n- 焦點股 31 隻中，8 隻上升、22 隻下跌。\n- 李寧（+5.2%）— 暫無公司消息；恒指由科技股領跌，體育用品股逆市靠穩。\n- 華虹半導體（+4.3%）— 業績及指引勝預期，逆晶片股跌勢向上。\n- 中芯國際（-4.0%）— 暫無公司消息；跟隨全球晶片股回落，此前路透報道指 Nvidia 晶片在港積壓。\n- 阿里巴巴（-3.8%）— 港股科技股在混元帶動的反彈後降溫；9 月季度業績將於 11 月 19 日公布。\n\n以上不構成投資建議。"
+  "brief": "US Market Recap — Friday, November 6, 2026\n\nUS markets are closed today (Sunday). Below is the last completed session.\n\nMarket overview\n- Indices: SPX +0.3% to 7,376.86 · COMP +1.1% to 24,579.42 · DJI -0.5% to 51,285.73 · RUT +0.9% to 2,754.11.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 4.86% (+2bp) · DXY 102.24 (-0.1%) · WTI $90.20 (-0.7%) · VIX 25.64 (-9.0%).\n- Tone: risk-on. The S&P 500 is -2.7% over five sessions and the AI complex rose in 18 of 23 names.\n\nHighlighted stocks\n- FROG (+35.3%) — Q3 earnings blowout: revenue and guidance topped estimates, AI coding was the biggest growth driver, and BofA, RBC and Truist raised targets to about $120.\n- IONQ (+23.4%) — Q3 swung to a profit, revenue jumped 336% and the company raised full-year guidance.\n- IREN (+20.0%) — Fiscal Q1 showed strong AI cloud revenue growth and a 61% smaller net loss.\n- DKNG (-21.3%) — Cut its 2027 outlook on heavier prediction-business spending; BofA flagged a reset in expectations.\n- AXON (-18.2%) — Q3 revenue miss plus a guidance cut, with delayed drone deals and a $1.2 billion Skydio bet weighing on the stock.\n- TEAM (-16.2%) — Fiscal 2027 growth outlook slowed sharply, overshadowing a Q1 earnings beat.\n\nAI-related stocks\n- AMD (+11.0%) — Record quarterly revenue and a stronger growth outlook; led the chip rebound after Thursday's rout.\n- ANET (+7.3%) — Fastest growth since its IPO as Big Tech moves beyond Nvidia; rebounded with the AI-networking group.\n- TSM (+6.3%) — Reported to be weighing advanced memory-chip production for Nvidia; joined the broader chip rebound.\n- CRM (-3.9%) — No company-specific catalyst; software names stayed under pressure after the sector's AI-driven selloff.\n- MSFT (-1.0%) — Reported pullback from key neocloud data-center deals added to AI-infrastructure caution.\n\nHong Kong market\n- Indices: HSI -1.3% to 24,481.86 · HSTECH -1.8% to 4,078.23 · HSCE -1.1% to 8,274.10.\n- Breadth: 8 of 31 focus stocks advanced; 22 declined.\n- 2331.HK (+5.2%) — No company-specific news; sportswear held up while the Hang Seng fell, led by technology.\n- 1347.HK (+4.3%) — Defied the chip selloff after results and guidance beat expectations.\n- 0981.HK (-4.0%) — No company-specific news; tracked the global chip pullback and a Reuters report that Nvidia chips are piling up in Hong Kong.\n- 9988.HK (-3.8%) — Slid as Hong Kong tech cooled after the Hunyuan-led rally; September-quarter results are due November 19.\n\nNot financial advice.",
+  "briefZh": "美股收市摘要 — 2026年11月6日星期五\n\n今天美股休市（週日）。以下為對上一個交易日的總結。\n\n市場概覽\n- 指數：標普500 +0.3% 至 7,376.86 · 納斯達克綜合 +1.1% 至 24,579.42 · 道瓊斯 -0.5% 至 51,285.73 · 羅素2000 +0.9% 至 2,754.11。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 4.86%（+2bp）· 美匯指數 102.24（-0.1%）· 紐約期油 $90.20（-0.7%）· VIX 25.64（-9.0%）。\n- 市況：風險偏好。標普500 五個交易日跌 2.7%；AI 板塊 23 隻中有 18 隻上升。\n\n重點股票\n- FROG（+35.3%）— 第三季業績遠超預期，收入及指引均勝預期，AI 編程為最大增長動力；美銀、RBC 及 Truist 先後上調目標價至約 120 美元。\n- IONQ（+23.4%）— 第三季轉虧為盈，收入按年大增 336%，並上調全年指引。\n- IREN（+20.0%）— 第一財季 AI 雲業務收入強勁增長，淨虧損收窄 61%。\n- DKNG（-21.3%）— 下調 2027 年展望，主因預測市場業務開支增加；美銀指市場預期需要重置。\n- AXON（-18.2%）— 第三季收入遜預期兼下調指引，無人機訂單延誤及 12 億美元 Skydio 投資拖累股價。\n- TEAM（-16.2%）— 2027 財年增長展望明顯放緩，蓋過第一季業績勝預期的利好。\n\nAI 相關股票\n- AMD（+11.0%）— 季度收入創新高，增長前景轉強；帶領晶片股從週四跌勢反彈。\n- ANET（+7.3%）— 上市以來最快增長，受惠大型科技企業逐步減少依賴 Nvidia；帶動 AI 網絡板塊反彈。\n- TSM（+6.3%）— 據報正考慮為 Nvidia 生產先進記憶體晶片；隨晶片板塊反彈。\n- CRM（-3.9%）— 暫無公司層面消息；軟件股在 AI 相關拋售後持續受壓。\n- MSFT（-1.0%）— 據報縮減與新興雲端業者的數據中心交易，加深市場對 AI 基建的審慎情緒。\n\n香港市場\n- 指數：恒生指數 -1.3% 至 24,481.86 · 恒生科技指數 -1.8% 至 4,078.23 · 國企指數 -1.1% 至 8,274.10。\n- 焦點股 31 隻中，8 隻上升、22 隻下跌。\n- 李寧（+5.2%）— 暫無公司消息；恒指由科技股領跌，體育用品股逆市靠穩。\n- 華虹半導體（+4.3%）— 業績及指引勝預期，逆晶片股跌勢向上。\n- 中芯國際（-4.0%）— 暫無公司消息；跟隨全球晶片股回落，此前路透報道指 Nvidia 晶片在港積壓。\n- 阿里巴巴（-3.8%）— 港股科技股在混元帶動的反彈後降溫；9 月季度業績將於 11 月 19 日公布。\n\n以上不構成投資建議。"
 }
