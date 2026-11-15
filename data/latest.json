@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-11-14T23:29:57.114Z",
-    "generatedAtHKT": "Sun, 15 Nov 2026, 07:29",
-    "todayET": "2026-11-14",
-    "todayHKT": "2026-11-15",
-    "weekdayET": "Saturday",
+    "generatedAt": "2026-11-15T23:40:53.003Z",
+    "generatedAtHKT": "Mon, 16 Nov 2026, 07:40",
+    "todayET": "2026-11-15",
+    "todayHKT": "2026-11-16",
+    "weekdayET": "Sunday",
     "sessionDate": "2026-11-13",
     "sessionLabel": "Friday, November 13, 2026",
     "sessionLabelZh": "2026年11月13日星期五",
@@ -13,8 +13,8 @@
     "note": "US markets are closed today (weekend). Showing the last completed session.",
     "noteZh": "今天美股休市（週末），以下為對上一個交易日的總結。",
     "tone": "Risk-off",
-    "wordCount": 364,
-    "wordCountZh": 1252,
+    "wordCount": 376,
+    "wordCountZh": 1289,
     "failures": [],
     "failureCount": 0,
     "sources": [
@@ -131,16 +131,16 @@
       "key": "dxy",
       "label": "US Dollar (DXY)",
       "labelZh": "美匯指數",
-      "display": "103.41",
-      "changePct": 0.23263109181319575,
+      "display": "103.42",
+      "changePct": 0.008698439061793906,
       "changeBp": null
     },
     {
       "key": "wti",
       "label": "WTI crude",
       "labelZh": "紐約期油",
-      "display": "$88.56",
-      "changePct": -0.20284010537402475,
+      "display": "$88.44",
+      "changePct": -0.13549584518462998,
       "changeBp": null
     },
     {
@@ -155,13 +155,13 @@
   "overview": [
     "Indices: SPX -0.4% to 7,561.67 · COMP -0.9% to 25,136.27 · DJI +0.1% to 52,347.55 · RUT -0.3% to 2,790.49.",
     "Drivers: no single macro catalyst dominated the session.",
-    "Cross-asset: 10Y 5.15% (+5bp) · DXY 103.41 (+0.2%) · WTI $88.56 (-0.2%) · VIX 19.30 (+3.2%).",
+    "Cross-asset: 10Y 5.15% (+5bp) · DXY 103.42 (+0.0%) · WTI $88.44 (-0.1%) · VIX 19.30 (+3.2%).",
     "Tone: risk-off. The S&P 500 is +2.5% over five sessions and the AI complex fell in 19 of 23 names."
   ],
   "overviewZh": [
     "指數：標普500 -0.4% 至 7,561.67 · 納斯達克綜合 -0.9% 至 25,136.27 · 道瓊斯 +0.1% 至 52,347.55 · 羅素2000 -0.3% 至 2,790.49。",
     "消息面：本交易日未有單一主導因素。",
-    "跨資產：10年期債息 5.15%（+5bp）· 美匯指數 103.41（+0.2%）· 紐約期油 $88.56（-0.2%）· VIX 19.30（+3.2%）。",
+    "跨資產：10年期債息 5.15%（+5bp）· 美匯指數 103.42（+0.0%）· 紐約期油 $88.44（-0.1%）· VIX 19.30（+3.2%）。",
     "市況：避險。標普500 五個交易日升 2.5%；AI 板塊 23 隻中有 4 隻上升。"
   ],
   "drivers": [],
@@ -184,10 +184,10 @@
         "price": 13.22,
         "changePct": 11.7498,
         "direction": "up",
-        "reason": "NU Q3 Earnings Call Highlights Credit Growth and Global Expansion",
+        "reason": "Nu Holdings Soars 11% on Record $1.1 Billion Profit as It Takes “First Steps Beyond Latin America”",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/nu-q3-earnings-call-highlights-172000790.html",
-        "publisher": "Zacks"
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-soars-11-record-173129385.html",
+        "publisher": "TIKR"
       },
       {
         "sym": "CBRS",
@@ -208,10 +208,10 @@
         "price": 115.88,
         "changePct": -9.919156,
         "direction": "down",
-        "reason": "Why Management Is Cautious About One Nebius (NBIS) Number",
+        "reason": "“We Are Not Immune”: Nebius Is Still Up 38% in 2026. Take Profits, or Buy More?",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/why-management-cautious-one-nebius-213254975.html",
-        "publisher": "Insider Monkey"
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/not-immune-nebius-still-38-083807806.html",
+        "publisher": "TIKR"
       },
       {
         "sym": "AMD",
@@ -219,10 +219,10 @@
         "price": 534.06,
         "changePct": -8.754483,
         "direction": "down",
-        "reason": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
+        "reason": "Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/amd-just-had-biggest-run-200656125.html",
-        "publisher": "BeInCrypto"
+        "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-delivered-great-news-104002159.html",
+        "publisher": "Motley Fool"
       },
       {
         "sym": "KEP",
@@ -774,10 +774,10 @@
           534.0599975585938
         ],
         "direction": "down",
-        "reason": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
+        "reason": "Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/amd-just-had-biggest-run-200656125.html",
-        "publisher": "BeInCrypto"
+        "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-delivered-great-news-104002159.html",
+        "publisher": "Motley Fool"
       },
       {
         "sym": "DELL",
@@ -906,10 +906,10 @@
           "changePct": 0.1265803469887361,
           "currency": "HKD",
           "direction": "up",
-          "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
-          "reasonZh": "跟隨大市向上，暫無公司層面消息。",
-          "reasonUrl": "",
-          "publisher": ""
+          "reason": "ANTA Group and UNHCR launch New Three-Year Partnership to Support a Further 300,000 Forcibly Displaced Young People Worldwide",
+          "reasonZh": "",
+          "reasonUrl": "https://finance.yahoo.com/media-advertising/articles/anta-group-unhcr-launch-three-102100583.html",
+          "publisher": "PR Newswire"
         }
       ],
       "losers": [
@@ -958,6 +958,6 @@
     "downCount": 27,
     "total": 31
   },
-  "brief": "US Market Recap — Friday, November 13, 2026\n\nUS markets are closed today (Saturday). Below is the last completed session.\n\nMarket overview\n- Indices: SPX -0.4% to 7,561.67 · COMP -0.9% to 25,136.27 · DJI +0.1% to 52,347.55 · RUT -0.3% to 2,790.49.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 5.15% (+5bp) · DXY 103.41 (+0.2%) · WTI $88.56 (-0.2%) · VIX 19.30 (+3.2%).\n- Tone: risk-off. The S&P 500 is +2.5% over five sessions and the AI complex fell in 19 of 23 names.\n\nHighlighted stocks\n- STN (+14.1%) — Stantec (STN) Q3 2026 Earnings Call Transcript\n- NU (+11.7%) — NU Q3 Earnings Call Highlights Credit Growth and Global Expansion\n- CBRS (+11.2%) — Cerebras Systems (CBRS) Stock Jumps As Q3 Results Revive Valuation Debate\n- NBIS (-9.9%) — Why Management Is Cautious About One Nebius (NBIS) Number\n- AMD (-8.8%) — AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?\n- KEP (-8.7%) — Korea Electric Power Stocks Fall 9.79% After Third-Quarter Net Profit Drops 78%\n\nAI-related stocks\n- META (+2.9%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- NOW (+1.6%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- MSFT (+0.2%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- AMD (-8.8%) — AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?\n- DELL (-7.2%) — Super Micro Slides 3% as Reported DOJ Smuggling Probe Weighs for a Second Day; Dell Sinks 8%, NVIDIA Retreats 4%\n\nHong Kong market\n- Indices: HSI -1.5% to 23,637.60 · HSTECH -3.0% to 3,813.19 · HSCE -1.5% to 7,937.53.\n- Breadth: 3 of 31 focus stocks advanced; 27 declined.\n- 2382.HK (+2.4%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 0939.HK (+0.6%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 0992.HK (-6.3%) — Huddly AS (FRA:14B0) (Q3 2026) Earnings Call Highlights: Channel Growth Offsets Partner Delays ...\n- 1347.HK (-6.1%) — No company-specific catalyst in available headlines; sold off with the broader tape.\n\nNot financial advice.",
-  "briefZh": "美股收市摘要 — 2026年11月13日星期五\n\n今天美股休市（週六）。以下為對上一個交易日的總結。\n\n市場概覽\n- 指數：標普500 -0.4% 至 7,561.67 · 納斯達克綜合 -0.9% 至 25,136.27 · 道瓊斯 +0.1% 至 52,347.55 · 羅素2000 -0.3% 至 2,790.49。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 5.15%（+5bp）· 美匯指數 103.41（+0.2%）· 紐約期油 $88.56（-0.2%）· VIX 19.30（+3.2%）。\n- 市況：避險。標普500 五個交易日升 2.5%；AI 板塊 23 隻中有 4 隻上升。\n\n重點股票\n- STN（+14.1%）— Stantec (STN) Q3 2026 Earnings Call Transcript\n- NU（+11.7%）— NU Q3 Earnings Call Highlights Credit Growth and Global Expansion\n- CBRS（+11.2%）— Cerebras Systems (CBRS) Stock Jumps As Q3 Results Revive Valuation Debate\n- NBIS（-9.9%）— Why Management Is Cautious About One Nebius (NBIS) Number\n- AMD（-8.8%）— AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?\n- KEP（-8.7%）— Korea Electric Power Stocks Fall 9.79% After Third-Quarter Net Profit Drops 78%\n\nAI 相關股票\n- META（+2.9%）— 跟隨大市向上，暫無公司層面消息。\n- NOW（+1.6%）— 跟隨大市向上，暫無公司層面消息。\n- MSFT（+0.2%）— 跟隨大市向上，暫無公司層面消息。\n- AMD（-8.8%）— AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?\n- DELL（-7.2%）— Super Micro Slides 3% as Reported DOJ Smuggling Probe Weighs for a Second Day; Dell Sinks 8%, NVIDIA Retreats 4%\n\n香港市場\n- 指數：恒生指數 -1.5% 至 23,637.60 · 恒生科技指數 -3.0% 至 3,813.19 · 國企指數 -1.5% 至 7,937.53。\n- 焦點股 31 隻中，3 隻上升、27 隻下跌。\n- 舜宇光學科技（+2.4%）— 跟隨大市向上，暫無公司層面消息。\n- 建設銀行（+0.6%）— 跟隨大市向上，暫無公司層面消息。\n- 聯想集團（-6.3%）— Huddly AS (FRA:14B0) (Q3 2026) Earnings Call Highlights: Channel Growth Offsets Partner Delays ...\n- 華虹半導體（-6.1%）— 跟隨大市向下，暫無公司層面消息。\n\n以上不構成投資建議。"
+  "brief": "US Market Recap — Friday, November 13, 2026\n\nUS markets are closed today (Sunday). Below is the last completed session.\n\nMarket overview\n- Indices: SPX -0.4% to 7,561.67 · COMP -0.9% to 25,136.27 · DJI +0.1% to 52,347.55 · RUT -0.3% to 2,790.49.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 5.15% (+5bp) · DXY 103.42 (+0.0%) · WTI $88.44 (-0.1%) · VIX 19.30 (+3.2%).\n- Tone: risk-off. The S&P 500 is +2.5% over five sessions and the AI complex fell in 19 of 23 names.\n\nHighlighted stocks\n- STN (+14.1%) — Stantec (STN) Q3 2026 Earnings Call Transcript\n- NU (+11.7%) — Nu Holdings Soars 11% on Record $1.1 Billion Profit as It Takes “First Steps Beyond Latin America”\n- CBRS (+11.2%) — Cerebras Systems (CBRS) Stock Jumps As Q3 Results Revive Valuation Debate\n- NBIS (-9.9%) — “We Are Not Immune”: Nebius Is Still Up 38% in 2026. Take Profits, or Buy More?\n- AMD (-8.8%) — Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia\n- KEP (-8.7%) — Korea Electric Power Stocks Fall 9.79% After Third-Quarter Net Profit Drops 78%\n\nAI-related stocks\n- META (+2.9%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- NOW (+1.6%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- MSFT (+0.2%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- AMD (-8.8%) — Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia\n- DELL (-7.2%) — Super Micro Slides 3% as Reported DOJ Smuggling Probe Weighs for a Second Day; Dell Sinks 8%, NVIDIA Retreats 4%\n\nHong Kong market\n- Indices: HSI -1.5% to 23,637.60 · HSTECH -3.0% to 3,813.19 · HSCE -1.5% to 7,937.53.\n- Breadth: 3 of 31 focus stocks advanced; 27 declined.\n- 2382.HK (+2.4%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 0939.HK (+0.6%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 0992.HK (-6.3%) — Huddly AS (FRA:14B0) (Q3 2026) Earnings Call Highlights: Channel Growth Offsets Partner Delays ...\n- 1347.HK (-6.1%) — No company-specific catalyst in available headlines; sold off with the broader tape.\n\nNot financial advice.",
+  "briefZh": "美股收市摘要 — 2026年11月13日星期五\n\n今天美股休市（週日）。以下為對上一個交易日的總結。\n\n市場概覽\n- 指數：標普500 -0.4% 至 7,561.67 · 納斯達克綜合 -0.9% 至 25,136.27 · 道瓊斯 +0.1% 至 52,347.55 · 羅素2000 -0.3% 至 2,790.49。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 5.15%（+5bp）· 美匯指數 103.42（+0.0%）· 紐約期油 $88.44（-0.1%）· VIX 19.30（+3.2%）。\n- 市況：避險。標普500 五個交易日升 2.5%；AI 板塊 23 隻中有 4 隻上升。\n\n重點股票\n- STN（+14.1%）— Stantec (STN) Q3 2026 Earnings Call Transcript\n- NU（+11.7%）— Nu Holdings Soars 11% on Record $1.1 Billion Profit as It Takes “First Steps Beyond Latin America”\n- CBRS（+11.2%）— Cerebras Systems (CBRS) Stock Jumps As Q3 Results Revive Valuation Debate\n- NBIS（-9.9%）— “We Are Not Immune”: Nebius Is Still Up 38% in 2026. Take Profits, or Buy More?\n- AMD（-8.8%）— Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia\n- KEP（-8.7%）— Korea Electric Power Stocks Fall 9.79% After Third-Quarter Net Profit Drops 78%\n\nAI 相關股票\n- META（+2.9%）— 跟隨大市向上，暫無公司層面消息。\n- NOW（+1.6%）— 跟隨大市向上，暫無公司層面消息。\n- MSFT（+0.2%）— 跟隨大市向上，暫無公司層面消息。\n- AMD（-8.8%）— Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia\n- DELL（-7.2%）— Super Micro Slides 3% as Reported DOJ Smuggling Probe Weighs for a Second Day; Dell Sinks 8%, NVIDIA Retreats 4%\n\n香港市場\n- 指數：恒生指數 -1.5% 至 23,637.60 · 恒生科技指數 -3.0% 至 3,813.19 · 國企指數 -1.5% 至 7,937.53。\n- 焦點股 31 隻中，3 隻上升、27 隻下跌。\n- 舜宇光學科技（+2.4%）— 跟隨大市向上，暫無公司層面消息。\n- 建設銀行（+0.6%）— 跟隨大市向上，暫無公司層面消息。\n- 聯想集團（-6.3%）— Huddly AS (FRA:14B0) (Q3 2026) Earnings Call Highlights: Channel Growth Offsets Partner Delays ...\n- 華虹半導體（-6.1%）— 跟隨大市向下，暫無公司層面消息。\n\n以上不構成投資建議。"
 }
