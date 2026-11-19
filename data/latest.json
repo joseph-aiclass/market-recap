@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generatedAt": "2026-11-18T23:46:39.006Z",
-    "generatedAtHKT": "Thu, 19 Nov 2026, 07:46",
-    "todayET": "2026-11-18",
-    "todayHKT": "2026-11-19",
-    "weekdayET": "Wednesday",
-    "sessionDate": "2026-11-18",
-    "sessionLabel": "Wednesday, November 18, 2026",
-    "sessionLabelZh": "2026年11月18日星期三",
+    "generatedAt": "2026-11-19T23:40:47.949Z",
+    "generatedAtHKT": "Fri, 20 Nov 2026, 07:40",
+    "todayET": "2026-11-19",
+    "todayHKT": "2026-11-20",
+    "weekdayET": "Thursday",
+    "sessionDate": "2026-11-19",
+    "sessionLabel": "Thursday, November 19, 2026",
+    "sessionLabelZh": "2026年11月19日星期四",
     "sessionCloseET": "16:00 ET",
     "weekend": false,
     "note": "Latest completed US session.",
     "noteZh": "最新完成的美股交易日。",
-    "tone": "Cautiously positive",
-    "wordCount": 364,
-    "wordCountZh": 1286,
+    "tone": "Risk-off",
+    "wordCount": 314,
+    "wordCountZh": 1181,
     "failures": [],
     "failureCount": 0,
     "sources": [
@@ -38,11 +38,10 @@
       "name": "S&P 500",
       "nameZh": "標普500",
       "short": "SPX",
-      "price": 7323.63,
-      "changePct": -0.2302272838388908,
-      "weekChangePct": -3.881549477105628,
+      "price": 7175.83,
+      "changePct": -2.0181222570294644,
+      "weekChangePct": -5.486668636752867,
       "spark": [
-        7353.72998046875,
         7376.85986328125,
         7549.93994140625,
         7520.93017578125,
@@ -51,7 +50,8 @@
         7561.669921875,
         7416.58984375,
         7340.52978515625,
-        7323.6298828125
+        7323.6298828125,
+        7175.830078125
       ]
     },
     {
@@ -59,11 +59,10 @@
       "name": "Nasdaq Composite",
       "nameZh": "納斯達克綜合",
       "short": "COMP",
-      "price": 24429.885,
-      "changePct": 0.41722425687398257,
-      "weekChangePct": -4.06933549837718,
+      "price": 23879.2,
+      "changePct": -2.2541315031164966,
+      "weekChangePct": -5.861725769162474,
       "spark": [
-        24315,
         24579.4296875,
         25253.140625,
         25065.869140625,
@@ -72,7 +71,8 @@
         25136.26953125,
         24509.759765625,
         24328.380859375,
-        24429.884765625
+        24429.880859375,
+        23879.19921875
       ]
     },
     {
@@ -80,11 +80,10 @@
       "name": "Dow Jones",
       "nameZh": "道瓊斯",
       "short": "DJI",
-      "price": 50198.17,
-      "changePct": -1.1057060527248197,
-      "weekChangePct": -4.359819986408708,
+      "price": 49097.06,
+      "changePct": -2.19353263300488,
+      "weekChangePct": -6.118947076330361,
       "spark": [
-        51523.05859375,
         51285.73046875,
         52389.75,
         52231.890625,
@@ -93,7 +92,8 @@
         52347.55078125,
         51608.171875,
         50759.421875,
-        50198.171875
+        50198.171875,
+        49097.05859375
       ]
     },
     {
@@ -101,11 +101,10 @@
       "name": "Russell 2000",
       "nameZh": "羅素2000",
       "short": "RUT",
-      "price": 2714.3057,
-      "changePct": 0.4602570196062805,
-      "weekChangePct": -4.636060839501122,
+      "price": 2655.1052,
+      "changePct": -2.1812111625540753,
+      "weekChangePct": -5.142970531925561,
       "spark": [
-        2729.889892578125,
         2754.110107421875,
         2840.81005859375,
         2821.3798828125,
@@ -114,7 +113,8 @@
         2790.489990234375,
         2742.93994140625,
         2701.8701171875,
-        2714.3056640625
+        2714.31005859375,
+        2655.105224609375
       ]
     }
   ],
@@ -123,130 +123,130 @@
       "key": "yield10y",
       "label": "US 10Y yield",
       "labelZh": "美國10年期債息",
-      "display": "5.07%",
-      "changePct": -0.7250671781585227,
-      "changeBp": -3.7000164031982585
+      "display": "5.05%",
+      "changePct": -0.2763509476314985,
+      "changeBp": -1.3999984741211335
     },
     {
       "key": "dxy",
       "label": "US Dollar (DXY)",
       "labelZh": "美匯指數",
-      "display": "103.81",
-      "changePct": 0.31211294128610234,
+      "display": "103.92",
+      "changePct": 0.06162429265024194,
       "changeBp": null
     },
     {
       "key": "wti",
       "label": "WTI crude",
       "labelZh": "紐約期油",
-      "display": "$82.07",
-      "changePct": -4.580865415124292,
+      "display": "$82.90",
+      "changePct": -0.4323812168086749,
       "changeBp": null
     },
     {
       "key": "vix",
       "label": "VIX",
       "labelZh": "波動率指數",
-      "display": "24.56",
-      "changePct": -3.5349554237775194,
+      "display": "28.44",
+      "changePct": 15.798050295138122,
       "changeBp": null
     }
   ],
   "overview": [
-    "Indices: SPX -0.2% to 7,323.63 · COMP +0.4% to 24,429.89 · DJI -1.1% to 50,198.17 · RUT +0.5% to 2,714.31.",
-    "Drivers: Wall Street ends mixed after Nvidia earnings, Fed minutes; U.S. Stocks Mixed, Nvidia Down Again Ahead of Anthropic IPO.",
-    "Cross-asset: 10Y 5.07% (-4bp) · DXY 103.81 (+0.3%) · WTI $82.07 (-4.6%) · VIX 24.56 (-3.5%).",
-    "Tone: cautiously positive. The S&P 500 is -3.9% over five sessions and the AI complex rose in 13 of 23 names."
+    "Indices: SPX -2.0% to 7,175.83 · COMP -2.3% to 23,879.20 · DJI -2.2% to 49,097.06 · RUT -2.2% to 2,655.11.",
+    "Drivers: U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO; Anthropic soars in record Wall Street debut.",
+    "Cross-asset: 10Y 5.05% (-1bp) · DXY 103.92 (+0.1%) · WTI $82.90 (-0.4%) · VIX 28.44 (+15.8%).",
+    "Tone: risk-off. The S&P 500 is -5.5% over five sessions and the AI complex fell in 22 of 23 names."
   ],
   "overviewZh": [
-    "指數：標普500 -0.2% 至 7,323.63 · 納斯達克綜合 +0.4% 至 24,429.89 · 道瓊斯 -1.1% 至 50,198.17 · 羅素2000 +0.5% 至 2,714.31。",
-    "消息面：Wall Street ends mixed after Nvidia earnings, Fed minutes；U.S. Stocks Mixed, Nvidia Down Again Ahead of Anthropic IPO。",
-    "跨資產：10年期債息 5.07%（-4bp）· 美匯指數 103.81（+0.3%）· 紐約期油 $82.07（-4.6%）· VIX 24.56（-3.5%）。",
-    "市況：審慎向好。標普500 五個交易日跌 3.9%；AI 板塊 23 隻中有 13 隻上升。"
+    "指數：標普500 -2.0% 至 7,175.83 · 納斯達克綜合 -2.3% 至 23,879.20 · 道瓊斯 -2.2% 至 49,097.06 · 羅素2000 -2.2% 至 2,655.11。",
+    "消息面：U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO；Anthropic soars in record Wall Street debut。",
+    "跨資產：10年期債息 5.05%（-1bp）· 美匯指數 103.92（+0.1%）· 紐約期油 $82.90（-0.4%）· VIX 28.44（+15.8%）。",
+    "市況：避險。標普500 五個交易日跌 5.5%；AI 板塊 23 隻中有 1 隻上升。"
   ],
   "drivers": [
     {
-      "text": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
-      "publisher": "Reuters",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-nvidia-forecast-103531610.html",
-      "zh": "Wall Street ends mixed after Nvidia earnings, Fed minutes"
+      "text": "U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO",
+      "publisher": "The Wall Street Journal",
+      "url": "https://finance.yahoo.com/m/eb137ff1-a408-3b40-9351-5fb36bd4f2ae/u.s.-stocks-slide-as-ai-bust.html",
+      "zh": "U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO"
     },
     {
-      "text": "U.S. Stocks Mixed, Nvidia Down Again Ahead of Anthropic IPO",
-      "publisher": "The Wall Street Journal",
-      "url": "https://finance.yahoo.com/m/23719ace-7b0e-3591-a8f8-fd2f0c4880aa/u.s.-stocks-mixed%2C-nvidia.html",
-      "zh": "U.S. Stocks Mixed, Nvidia Down Again Ahead of Anthropic IPO"
+      "text": "Anthropic soars in record Wall Street debut",
+      "publisher": "AFP",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html",
+      "zh": "Anthropic soars in record Wall Street debut"
     }
   ],
   "movers": {
     "gainers": [
       {
-        "sym": "NTSK",
-        "name": "Netskope",
-        "price": 23.505,
-        "changePct": 12.733807,
+        "sym": "INSM",
+        "name": "Insmed",
+        "price": 144.46,
+        "changePct": 20.584309,
         "direction": "up",
-        "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
-        "reasonZh": "跟隨大市向上，暫無公司層面消息。",
-        "reasonUrl": "",
-        "publisher": ""
+        "reason": "Sanofi Reportedly Gears Up For The Biggest Biotech Deal In Years",
+        "reasonZh": "",
+        "reasonUrl": "https://finance.yahoo.com/m/8344ba04-192f-3ca6-a30d-5b6f30413bdd/sanofi-reportedly-gears-up.html",
+        "publisher": "Investor's Business Daily"
       },
       {
-        "sym": "OKTA",
-        "name": "Okta",
-        "price": 195.61,
-        "changePct": 12.071736,
+        "sym": "ANT",
+        "name": "Anthropic, PBC Class A Common Stock",
+        "price": 97.17,
+        "changePct": 17.072287,
         "direction": "up",
-        "reason": "Palo Alto Soars 7%, Okta Up 11% as DHS Chief Warns of “A Severe Cyber Threat”",
+        "reason": "Anthropic’s Record IPO Is Good News for Hut 8. Here’s the Number That Matters",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-soars-7-okta-194351975.html",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-record-ipo-good-news-230525828.html",
         "publisher": "TIKR"
       },
       {
-        "sym": "S",
-        "name": "SentinelOne",
-        "price": 23.34,
-        "changePct": 10.3546,
+        "sym": "TU",
+        "name": "TELUS",
+        "price": 10.78,
+        "changePct": 13.3544,
         "direction": "up",
-        "reason": "AI Risks Lift Cyber Stocks as Software Looks to Shrug Off Slump",
+        "reason": "S&P/TSX Composite Index Falls to More Than Five-Month Low",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/m/646ac265-aef5-3b36-8971-189ef1f7c636/ai-risks-lift-cyber-stocks-as.html",
-        "publisher": "Barrons.com"
+        "reasonUrl": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-falls-153017493.html",
+        "publisher": "MT Newswires"
       }
     ],
     "losers": [
       {
-        "sym": "HUM",
-        "name": "Humana",
-        "price": 385.78,
-        "changePct": -12.9833,
+        "sym": "WSM",
+        "name": "Williams-Sonoma",
+        "price": 220.66,
+        "changePct": -15.1601,
         "direction": "down",
-        "reason": "UnitedHealth Sinks 12% on CMS Fraud Rule as Warren Says Giants “Take a Cut at Every Step”",
+        "reason": "Williams-Sonoma (WSM) Q3 2026 Earnings Call Transcript",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/healthcare/articles/unitedhealth-sinks-12-cms-fraud-194116346.html",
-        "publisher": "TIKR"
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/williams-sonoma-wsm-q3-2026-214326391.html",
+        "publisher": "Motley Fool"
       },
       {
-        "sym": "UNH",
-        "name": "UnitedHealth Group",
-        "price": 349.91,
-        "changePct": -10.2058,
+        "sym": "NTES",
+        "name": "NetEase",
+        "price": 104.94,
+        "changePct": -11.390693,
         "direction": "down",
-        "reason": "Sector Update: Healthcare Stocks Fall Late Afternoon",
+        "reason": "What NetEase (NTES) Said on Its Q3 Earnings Call",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-204713275.html",
-        "publisher": "MT Newswires"
-      },
-      {
-        "sym": "CBRS",
-        "name": "Cerebras Systems",
-        "price": 94.15,
-        "changePct": -9.627566,
-        "direction": "down",
-        "reason": "Oracle Warns Memory Shortages Could Constrain AI Infrastructure for Years",
-        "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/oracle-warns-memory-shortages-could-171724003.html",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/netease-ntes-said-q3-earnings-151429811.html",
         "publisher": "MarketBeat"
+      },
+      {
+        "sym": "ZM",
+        "name": "Zoom Communications",
+        "price": 83.82,
+        "changePct": -9.559776,
+        "direction": "down",
+        "reason": "Insights Into Zoom (ZM) Q3: Wall Street Projections for Key Metrics",
+        "reasonZh": "",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/insights-zoom-zm-q3-wall-131503843.html",
+        "publisher": "Zacks"
       }
     ]
   },
@@ -257,30 +257,11 @@
         "categoryZh": "半導體",
         "stocks": [
           {
-            "sym": "AMD",
-            "name": "AMD",
-            "price": 530.14,
-            "changePct": 5.309789394703679,
-            "spark": [
-              404.3999938964844,
-              449.0400085449219,
-              508.5799865722656,
-              515.2100219726562,
-              552.9000244140625,
-              585.2999877929688,
-              534.0599975585938,
-              504.2799987792969,
-              503.4100036621094,
-              530.1400146484375
-            ]
-          },
-          {
             "sym": "AVGO",
             "name": "Broadcom",
-            "price": 354.05,
-            "changePct": 3.6446081577880207,
+            "price": 346.65,
+            "changePct": -2.0900986164732016,
             "spark": [
-              291.5299987792969,
               293.69000244140625,
               319.4800109863281,
               331.9800109863281,
@@ -289,70 +270,16 @@
               347.010009765625,
               333.3999938964844,
               341.6000061035156,
-              354.04998779296875
-            ]
-          },
-          {
-            "sym": "ASML",
-            "name": "ASML",
-            "price": 1395.27,
-            "changePct": 0.8791805647037298,
-            "spark": [
-              1356.6500244140625,
-              1424.75,
-              1513.25,
-              1507.8499755859375,
-              1534.4200439453125,
-              1497.1199951171875,
-              1495.1600341796875,
-              1406.7900390625,
-              1383.1099853515625,
-              1395.27001953125
-            ]
-          },
-          {
-            "sym": "TSM",
-            "name": "TSMC",
-            "price": 362.62,
-            "changePct": 0.8145882998954246,
-            "spark": [
-              353.1000061035156,
-              375.44000244140625,
-              388.6199951171875,
-              396.4800109863281,
-              413.3500061035156,
-              405.489990234375,
-              398.7300109863281,
-              373.45001220703125,
-              359.69000244140625,
-              362.6199951171875
-            ]
-          },
-          {
-            "sym": "ARM",
-            "name": "Arm Holdings",
-            "price": 182.76,
-            "changePct": -0.34353284525288075,
-            "spark": [
-              166.72000122070312,
-              174.6199951171875,
-              186.3000030517578,
-              181.49000549316406,
-              203.36000061035156,
-              199.77999877929688,
-              190.52999877929688,
-              175.0500030517578,
-              183.38999938964844,
-              182.75999450683594
+              354.04998779296875,
+              346.6499938964844
             ]
           },
           {
             "sym": "MU",
             "name": "Micron",
-            "price": 705.27,
-            "changePct": -1.0036163429469558,
+            "price": 690.44,
+            "changePct": -2.1027431592371304,
             "spark": [
-              656.3900146484375,
               690,
               733.1500244140625,
               725.1099853515625,
@@ -361,34 +288,70 @@
               778.3099975585938,
               719.02001953125,
               712.4199829101562,
-              705.27001953125
+              705.27001953125,
+              690.4400024414062
             ]
           },
           {
-            "sym": "MRVL",
-            "name": "Marvell",
-            "price": 145.54,
-            "changePct": -2.151413263984525,
+            "sym": "ASML",
+            "name": "ASML",
+            "price": 1356.2,
+            "changePct": -2.8001797367151138,
             "spark": [
-              133.5500030517578,
-              141.1999969482422,
-              154.60000610351562,
-              154.38999938964844,
-              168.8000030517578,
-              164.4499969482422,
-              156.75999450683594,
-              145.36000061035156,
-              148.74000549316406,
-              145.5399932861328
+              1424.75,
+              1513.25,
+              1507.8499755859375,
+              1534.4200439453125,
+              1497.1199951171875,
+              1495.1600341796875,
+              1406.7900390625,
+              1383.1099853515625,
+              1395.27001953125,
+              1356.199951171875
+            ]
+          },
+          {
+            "sym": "TSM",
+            "name": "TSMC",
+            "price": 352.09,
+            "changePct": -2.9038660087935653,
+            "spark": [
+              375.44000244140625,
+              388.6199951171875,
+              396.4800109863281,
+              413.3500061035156,
+              405.489990234375,
+              398.7300109863281,
+              373.45001220703125,
+              359.69000244140625,
+              362.6199951171875,
+              352.0899963378906
+            ]
+          },
+          {
+            "sym": "ARM",
+            "name": "Arm Holdings",
+            "price": 177.17,
+            "changePct": -3.0586542492380797,
+            "spark": [
+              174.6199951171875,
+              186.3000030517578,
+              181.49000549316406,
+              203.36000061035156,
+              199.77999877929688,
+              190.52999877929688,
+              175.0500030517578,
+              183.38999938964844,
+              182.75999450683594,
+              177.1699981689453
             ]
           },
           {
             "sym": "NVDA",
             "name": "NVIDIA",
-            "price": 150.96,
-            "changePct": -2.8946351509443247,
+            "price": 145.98,
+            "changePct": -3.2988942533417775,
             "spark": [
-              181.60000610351562,
               186.63999938964844,
               178.6699981689453,
               168.88999938964844,
@@ -397,7 +360,44 @@
               162.85000610351562,
               156.13999938964844,
               155.4600067138672,
-              150.9600067138672
+              150.9600067138672,
+              145.97999572753906
+            ]
+          },
+          {
+            "sym": "MRVL",
+            "name": "Marvell",
+            "price": 138.47,
+            "changePct": -4.857765831780703,
+            "spark": [
+              141.1999969482422,
+              154.60000610351562,
+              154.38999938964844,
+              168.8000030517578,
+              164.4499969482422,
+              156.75999450683594,
+              145.36000061035156,
+              148.74000549316406,
+              145.5399932861328,
+              138.47000122070312
+            ]
+          },
+          {
+            "sym": "AMD",
+            "name": "AMD",
+            "price": 489.19,
+            "changePct": -7.7243767826481236,
+            "spark": [
+              449.0400085449219,
+              508.5799865722656,
+              515.2100219726562,
+              552.9000244140625,
+              585.2999877929688,
+              534.0599975585938,
+              504.2799987792969,
+              503.4100036621094,
+              530.1400146484375,
+              489.19000244140625
             ]
           }
         ]
@@ -407,48 +407,11 @@
         "categoryZh": "雲端巨頭",
         "stocks": [
           {
-            "sym": "AMZN",
-            "name": "Amazon",
-            "price": 267.74,
-            "changePct": 3.819448224610489,
-            "spark": [
-              260.2099914550781,
-              259.29998779296875,
-              266.92999267578125,
-              270.8699951171875,
-              266.1700134277344,
-              267.44000244140625,
-              266.6600036621094,
-              257.75,
-              257.8900146484375,
-              267.739990234375
-            ]
-          },
-          {
-            "sym": "GOOGL",
-            "name": "Alphabet",
-            "price": 282.44,
-            "changePct": 0.7994254592394334,
-            "spark": [
-              282.57000732421875,
-              284.7799987792969,
-              288.1499938964844,
-              287.3800048828125,
-              293.45001220703125,
-              298.70001220703125,
-              295.7699890136719,
-              283.7200012207031,
-              280.20001220703125,
-              282.44000244140625
-            ]
-          },
-          {
             "sym": "MSFT",
             "name": "Microsoft",
-            "price": 508.29,
-            "changePct": 0.4049498953248909,
+            "price": 498.3,
+            "changePct": -1.9654174947391745,
             "spark": [
-              535.9299926757812,
               530.6099853515625,
               545.1799926757812,
               533.1599731445312,
@@ -457,34 +420,16 @@
               523.8800048828125,
               517.989990234375,
               506.239990234375,
-              508.2900085449219
-            ]
-          },
-          {
-            "sym": "META",
-            "name": "Meta Platforms",
-            "price": 616.38,
-            "changePct": -0.40234463684145627,
-            "spark": [
-              605.0800170898438,
-              610.1500244140625,
-              641.3699951171875,
-              641.3900146484375,
-              628.77001953125,
-              623.6099853515625,
-              641.6900024414062,
-              626.4099731445312,
-              618.8699951171875,
-              616.3800048828125
+              508.2900085449219,
+              498.29998779296875
             ]
           },
           {
             "sym": "ORCL",
             "name": "Oracle",
-            "price": 113.89,
-            "changePct": -0.9652179220448365,
+            "price": 110.57,
+            "changePct": -2.9150932589485756,
             "spark": [
-              115.16000366210938,
               116.0999984741211,
               119.79000091552734,
               117.9800033569336,
@@ -493,7 +438,62 @@
               125.3499984741211,
               119.08999633789062,
               115,
-              113.88999938964844
+              113.88999938964844,
+              110.56999969482422
+            ]
+          },
+          {
+            "sym": "META",
+            "name": "Meta Platforms",
+            "price": 596.22,
+            "changePct": -3.2707151464980377,
+            "spark": [
+              610.1500244140625,
+              641.3699951171875,
+              641.3900146484375,
+              628.77001953125,
+              623.6099853515625,
+              641.6900024414062,
+              626.4099731445312,
+              618.8699951171875,
+              616.3800048828125,
+              596.219970703125
+            ]
+          },
+          {
+            "sym": "GOOGL",
+            "name": "Alphabet",
+            "price": 272.66,
+            "changePct": -3.4626818774814994,
+            "spark": [
+              284.7799987792969,
+              288.1499938964844,
+              287.3800048828125,
+              293.45001220703125,
+              298.70001220703125,
+              295.7699890136719,
+              283.7200012207031,
+              280.20001220703125,
+              282.44000244140625,
+              272.6600036621094
+            ]
+          },
+          {
+            "sym": "AMZN",
+            "name": "Amazon",
+            "price": 257.37,
+            "changePct": -3.873158846427749,
+            "spark": [
+              259.29998779296875,
+              266.92999267578125,
+              270.8699951171875,
+              266.1700134277344,
+              267.44000244140625,
+              266.6600036621094,
+              257.75,
+              257.8900146484375,
+              267.739990234375,
+              257.3699951171875
             ]
           }
         ]
@@ -505,10 +505,9 @@
           {
             "sym": "CRWD",
             "name": "CrowdStrike",
-            "price": 237.03,
-            "changePct": 7.946988251538611,
+            "price": 243.46,
+            "changePct": 2.712740145840109,
             "spark": [
-              217.1999969482422,
               216.89999389648438,
               228.5800018310547,
               225.75999450683594,
@@ -517,70 +516,16 @@
               226.61000061035156,
               223.2100067138672,
               219.5800018310547,
-              237.02999877929688
-            ]
-          },
-          {
-            "sym": "SNOW",
-            "name": "Snowflake",
-            "price": 279.62,
-            "changePct": 2.447421637000713,
-            "spark": [
-              269.5400085449219,
-              275.8800048828125,
-              291.1400146484375,
-              295.760009765625,
-              301.2200012207031,
-              298.70001220703125,
-              291,
-              280.5400085449219,
-              272.94000244140625,
-              279.6199951171875
-            ]
-          },
-          {
-            "sym": "PLTR",
-            "name": "Palantir",
-            "price": 156.67,
-            "changePct": 0.0702609939108978,
-            "spark": [
-              154.99000549316406,
-              160.3800048828125,
-              169.1999969482422,
-              168.82000732421875,
-              172.39999389648438,
-              171.5800018310547,
-              167.99000549316406,
-              160.38999938964844,
-              156.55999755859375,
-              156.6699981689453
-            ]
-          },
-          {
-            "sym": "CRM",
-            "name": "Salesforce",
-            "price": 190.4,
-            "changePct": -2.1180394229303734,
-            "spark": [
-              222.41000366210938,
-              213.64999389648438,
-              214.94000244140625,
-              213.47999572753906,
-              218.00999450683594,
-              217.57000732421875,
-              217.83999633789062,
-              214.8300018310547,
-              194.52000427246094,
-              190.39999389648438
+              237.02999877929688,
+              243.4600067138672
             ]
           },
           {
             "sym": "NOW",
             "name": "ServiceNow",
-            "price": 90.59,
-            "changePct": -2.486550215335348,
+            "price": 88.87,
+            "changePct": -1.8986573140959306,
             "spark": [
-              102.36000061035156,
               101.97000122070312,
               102.76000213623047,
               99.61000061035156,
@@ -589,7 +534,62 @@
               102.25,
               99.37000274658203,
               92.9000015258789,
-              90.58999633789062
+              90.58999633789062,
+              88.87000274658203
+            ]
+          },
+          {
+            "sym": "PLTR",
+            "name": "Palantir",
+            "price": 153.68,
+            "changePct": -1.9084735610577996,
+            "spark": [
+              160.3800048828125,
+              169.1999969482422,
+              168.82000732421875,
+              172.39999389648438,
+              171.5800018310547,
+              167.99000549316406,
+              160.38999938964844,
+              156.55999755859375,
+              156.6699981689453,
+              153.67999267578125
+            ]
+          },
+          {
+            "sym": "CRM",
+            "name": "Salesforce",
+            "price": 183.31,
+            "changePct": -3.7237376917907183,
+            "spark": [
+              213.64999389648438,
+              214.94000244140625,
+              213.47999572753906,
+              218.00999450683594,
+              217.57000732421875,
+              217.83999633789062,
+              214.8300018310547,
+              194.52000427246094,
+              190.39999389648438,
+              183.30999755859375
+            ]
+          },
+          {
+            "sym": "SNOW",
+            "name": "Snowflake",
+            "price": 268.59,
+            "changePct": -3.944638785461052,
+            "spark": [
+              275.8800048828125,
+              291.1400146484375,
+              295.760009765625,
+              301.2200012207031,
+              298.70001220703125,
+              291,
+              280.5400085449219,
+              272.94000244140625,
+              279.6199951171875,
+              268.5899963378906
             ]
           }
         ]
@@ -599,84 +599,11 @@
         "categoryZh": "電力及數據中心",
         "stocks": [
           {
-            "sym": "ANET",
-            "name": "Arista Networks",
-            "price": 193.94,
-            "changePct": 4.033904273320421,
-            "spark": [
-              159.16000366210938,
-              170.8000030517578,
-              186.1699981689453,
-              185.02000427246094,
-              196.67999267578125,
-              206.6300048828125,
-              197.2899932861328,
-              187.02000427246094,
-              186.4199981689453,
-              193.94000244140625
-            ]
-          },
-          {
-            "sym": "VRT",
-            "name": "Vertiv",
-            "price": 194.48,
-            "changePct": 2.1589539926297308,
-            "spark": [
-              176.72999572753906,
-              182.86000061035156,
-              200.47000122070312,
-              194.22000122070312,
-              206.50999450683594,
-              209.63999938964844,
-              202.07000732421875,
-              188.6699981689453,
-              190.3699951171875,
-              194.47999572753906
-            ]
-          },
-          {
-            "sym": "SMCI",
-            "name": "Super Micro",
-            "price": 24.37,
-            "changePct": 0.9527815053864019,
-            "spark": [
-              27.079999923706055,
-              28.760000228881836,
-              28.600000381469727,
-              27.790000915527344,
-              30.43000030517578,
-              26.989999771118164,
-              26.8700008392334,
-              25.030000686645508,
-              24.139999389648438,
-              24.3700008392334
-            ]
-          },
-          {
-            "sym": "CEG",
-            "name": "Constellation Energy",
-            "price": 262.74,
-            "changePct": -1.9882929623668555,
-            "spark": [
-              239.64999389648438,
-              249.9499969482422,
-              276.0899963378906,
-              267.760009765625,
-              274.7300109863281,
-              282.3999938964844,
-              280.20001220703125,
-              277.82000732421875,
-              268.07000732421875,
-              262.739990234375
-            ]
-          },
-          {
             "sym": "DELL",
             "name": "Dell",
-            "price": 313.11,
-            "changePct": -2.9988608498122793,
+            "price": 312.54,
+            "changePct": -0.1820372499460987,
             "spark": [
-              316.9100036621094,
               328.5299987792969,
               346.30999755859375,
               334.3800048828125,
@@ -685,7 +612,80 @@
               344.5299987792969,
               320.54998779296875,
               322.7900085449219,
-              313.1099853515625
+              313.1099853515625,
+              312.5400085449219
+            ]
+          },
+          {
+            "sym": "SMCI",
+            "name": "Super Micro",
+            "price": 23.84,
+            "changePct": -2.174807830914216,
+            "spark": [
+              28.760000228881836,
+              28.600000381469727,
+              27.790000915527344,
+              30.43000030517578,
+              26.989999771118164,
+              26.8700008392334,
+              25.030000686645508,
+              24.139999389648438,
+              24.3700008392334,
+              23.84000015258789
+            ]
+          },
+          {
+            "sym": "ANET",
+            "name": "Arista Networks",
+            "price": 189.59,
+            "changePct": -2.2429648596244967,
+            "spark": [
+              170.8000030517578,
+              186.1699981689453,
+              185.02000427246094,
+              196.67999267578125,
+              206.6300048828125,
+              197.2899932861328,
+              187.02000427246094,
+              186.4199981689453,
+              193.94000244140625,
+              189.58999633789062
+            ]
+          },
+          {
+            "sym": "CEG",
+            "name": "Constellation Energy",
+            "price": 252.03,
+            "changePct": -4.076270020990858,
+            "spark": [
+              249.9499969482422,
+              276.0899963378906,
+              267.760009765625,
+              274.7300109863281,
+              282.3999938964844,
+              280.20001220703125,
+              277.82000732421875,
+              268.07000732421875,
+              262.739990234375,
+              252.02999877929688
+            ]
+          },
+          {
+            "sym": "VRT",
+            "name": "Vertiv",
+            "price": 184.99,
+            "changePct": -4.879674230181596,
+            "spark": [
+              182.86000061035156,
+              200.47000122070312,
+              194.22000122070312,
+              206.50999450683594,
+              209.63999938964844,
+              202.07000732421875,
+              188.6699981689453,
+              190.3699951171875,
+              194.47999572753906,
+              184.99000549316406
             ]
           }
         ]
@@ -697,10 +697,9 @@
         "name": "CrowdStrike",
         "category": "AI software",
         "categoryZh": "AI 軟件",
-        "price": 237.03,
-        "changePct": 7.946988251538611,
+        "price": 243.46,
+        "changePct": 2.712740145840109,
         "spark": [
-          217.1999969482422,
           216.89999389648438,
           228.5800018310547,
           225.75999450683594,
@@ -709,32 +708,8 @@
           226.61000061035156,
           223.2100067138672,
           219.5800018310547,
-          237.02999877929688
-        ],
-        "direction": "up",
-        "reason": "AI Risks Lift Cyber Stocks as Software Looks to Shrug Off Slump",
-        "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/m/646ac265-aef5-3b36-8971-189ef1f7c636/ai-risks-lift-cyber-stocks-as.html",
-        "publisher": "Barrons.com"
-      },
-      {
-        "sym": "AMD",
-        "name": "AMD",
-        "category": "Semiconductors",
-        "categoryZh": "半導體",
-        "price": 530.14,
-        "changePct": 5.309789394703679,
-        "spark": [
-          404.3999938964844,
-          449.0400085449219,
-          508.5799865722656,
-          515.2100219726562,
-          552.9000244140625,
-          585.2999877929688,
-          534.0599975585938,
-          504.2799987792969,
-          503.4100036621094,
-          530.1400146484375
+          237.02999877929688,
+          243.4600067138672
         ],
         "direction": "up",
         "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
@@ -743,100 +718,74 @@
         "publisher": ""
       },
       {
-        "sym": "ANET",
-        "name": "Arista Networks",
-        "category": "Power & data-center",
-        "categoryZh": "電力及數據中心",
-        "price": 193.94,
-        "changePct": 4.033904273320421,
-        "spark": [
-          159.16000366210938,
-          170.8000030517578,
-          186.1699981689453,
-          185.02000427246094,
-          196.67999267578125,
-          206.6300048828125,
-          197.2899932861328,
-          187.02000427246094,
-          186.4199981689453,
-          193.94000244140625
-        ],
-        "direction": "up",
-        "reason": "Cisco Drops 7% Post Earnings: Should You Buy the Stock on the Dip?",
-        "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/cisco-drops-7-post-earnings-173900714.html",
-        "publisher": "Zacks"
-      },
-      {
-        "sym": "DELL",
-        "name": "Dell",
-        "category": "Power & data-center",
-        "categoryZh": "電力及數據中心",
-        "price": 313.11,
-        "changePct": -2.9988608498122793,
-        "spark": [
-          316.9100036621094,
-          328.5299987792969,
-          346.30999755859375,
-          334.3800048828125,
-          373.67999267578125,
-          371.1700134277344,
-          344.5299987792969,
-          320.54998779296875,
-          322.7900085449219,
-          313.1099853515625
-        ],
-        "direction": "down",
-        "reason": "Citi Bank Slashes Dell And HPE Price Targets Ahead Of Earnings",
-        "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/citi-bank-slashes-dell-hpe-180012702.html",
-        "publisher": "GuruFocus.com"
-      },
-      {
-        "sym": "NVDA",
-        "name": "NVIDIA",
+        "sym": "AMD",
+        "name": "AMD",
         "category": "Semiconductors",
         "categoryZh": "半導體",
-        "price": 150.96,
-        "changePct": -2.8946351509443247,
+        "price": 489.19,
+        "changePct": -7.7243767826481236,
         "spark": [
-          181.60000610351562,
-          186.63999938964844,
-          178.6699981689453,
-          168.88999938964844,
-          173.72999572753906,
-          166.19000244140625,
-          162.85000610351562,
-          156.13999938964844,
-          155.4600067138672,
-          150.9600067138672
+          449.0400085449219,
+          508.5799865722656,
+          515.2100219726562,
+          552.9000244140625,
+          585.2999877929688,
+          534.0599975585938,
+          504.2799987792969,
+          503.4100036621094,
+          530.1400146484375,
+          489.19000244140625
         ],
         "direction": "down",
-        "reason": "No company-specific catalyst in available headlines; sold off with the broader tape.",
-        "reasonZh": "跟隨大市向下，暫無公司層面消息。",
-        "reasonUrl": "",
-        "publisher": ""
+        "reason": "Update: Update: Advanced Micro Devices Shares Fall Amid Hunterbrook Media Report on China Ties",
+        "reasonZh": "",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-shares-fall-223509724.html",
+        "publisher": "MT Newswires"
+      },
+      {
+        "sym": "VRT",
+        "name": "Vertiv",
+        "category": "Power & data-center",
+        "categoryZh": "電力及數據中心",
+        "price": 184.99,
+        "changePct": -4.879674230181596,
+        "spark": [
+          182.86000061035156,
+          200.47000122070312,
+          194.22000122070312,
+          206.50999450683594,
+          209.63999938964844,
+          202.07000732421875,
+          188.6699981689453,
+          190.3699951171875,
+          194.47999572753906,
+          184.99000549316406
+        ],
+        "direction": "down",
+        "reason": "GE Vernova Is Down 34% From Its July High Despite 3 Guidance Raises. Is It Time to Buy?",
+        "reasonZh": "",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-down-34-july-163605393.html",
+        "publisher": "TIKR"
       }
     ],
-    "upCount": 13,
-    "downCount": 10,
+    "upCount": 1,
+    "downCount": 22,
     "total": 23
   },
   "hk": {
-    "sessionDate": "2026-11-17",
-    "sessionLabel": "Tuesday, November 17, 2026",
-    "sessionLabelZh": "2026年11月17日星期二",
+    "sessionDate": "2026-11-18",
+    "sessionLabel": "Wednesday, November 18, 2026",
+    "sessionLabelZh": "2026年11月18日星期三",
     "indices": [
       {
         "sym": "^HSI",
         "name": "Hang Seng Index",
         "nameZh": "恒生指數",
         "short": "HSI",
-        "price": 23294.75,
-        "changePct": -1.03423245879819,
-        "weekChangePct": -4.271154751008577,
+        "price": 22841.62,
+        "changePct": -0.9078542591118843,
+        "weekChangePct": -4.199594032041287,
         "spark": [
-          23919.5,
           24796.98046875,
           24481.859375,
           24448.94921875,
@@ -845,7 +794,8 @@
           24008.55078125,
           23637.599609375,
           23753.83984375,
-          23508.169921875
+          23508.169921875,
+          23294.75
         ]
       },
       {
@@ -853,12 +803,12 @@
         "name": "Hang Seng Tech",
         "nameZh": "恒生科技指數",
         "short": "HSTECH",
-        "price": 3736.33,
-        "changePct": -0.5811339029368034,
+        "price": 3649.14,
+        "changePct": -2.3335733192731967,
         "weekChangePct": null,
         "spark": [
-          3758.17,
-          3736.33
+          3736.33,
+          3649.14
         ]
       },
       {
@@ -866,11 +816,10 @@
         "name": "Hang Seng China Enterprises",
         "nameZh": "國企指數",
         "short": "HSCE",
-        "price": 7836.27,
-        "changePct": -0.966855036713743,
-        "weekChangePct": -4.372704815547001,
+        "price": 7690.34,
+        "changePct": -0.8615499609282096,
+        "weekChangePct": -4.10184444339542,
         "spark": [
-          8057.58984375,
           8369.080078125,
           8274.099609375,
           8260.150390625,
@@ -879,31 +828,19 @@
           8056.759765625,
           7937.52978515625,
           7981.5400390625,
-          7904.3701171875
+          7904.3701171875,
+          7836.27001953125
         ]
       }
     ],
     "movers": {
       "gainers": [
         {
-          "sym": "0992.HK",
-          "name": "Lenovo Group",
-          "nameZh": "聯想集團",
-          "price": 17.2,
-          "changePct": 4.495757713406356,
-          "currency": "HKD",
-          "direction": "up",
-          "reason": "Klique Joins Lenovo AI Innovators, Bringing Its Enterprise AI Control Plane to Lenovo Hybrid AI Factory",
-          "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/klique-joins-lenovo-ai-innovators-130000250.html",
-          "publisher": "ACCESS Newswire"
-        },
-        {
           "sym": "1347.HK",
           "name": "Hua Hong Grace Semiconductor",
           "nameZh": "華虹半導體",
-          "price": 77.4,
-          "changePct": 3.7533553740341397,
+          "price": 83.6,
+          "changePct": 8.010331816555837,
           "currency": "HKD",
           "direction": "up",
           "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
@@ -912,65 +849,78 @@
           "publisher": ""
         },
         {
-          "sym": "0763.HK",
-          "name": "ZTE",
-          "nameZh": "中興通訊",
-          "price": 19.34,
-          "changePct": 1.8967366650902706,
+          "sym": "0981.HK",
+          "name": "Semiconductor Manufacturing International",
+          "nameZh": "中芯國際",
+          "price": 50.5,
+          "changePct": 2.6422748311007993,
           "currency": "HKD",
           "direction": "up",
-          "reason": "Zentek Q2 Fiscal 2027 Results News Release",
-          "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/zentek-q2-fiscal-2027-results-013200313.html",
-          "publisher": "TMX Newsfile"
-        }
-      ],
-      "losers": [
-        {
-          "sym": "2331.HK",
-          "name": "Li Ning Company",
-          "nameZh": "李寧",
-          "price": 12.32,
-          "changePct": -20.207253693990236,
-          "currency": "HKD",
-          "direction": "down",
-          "reason": "Li Ning Co Ltd's Dividend Analysis",
-          "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/li-ning-co-ltds-dividend-100724538.html",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "sym": "9618.HK",
-          "name": "JD.com,",
-          "nameZh": "京東集團",
-          "price": 97.65,
-          "changePct": -7.176801940477084,
-          "currency": "HKD",
-          "direction": "down",
-          "reason": "No company-specific catalyst in available headlines; sold off with the broader tape.",
-          "reasonZh": "跟隨大市向下，暫無公司層面消息。",
+          "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
+          "reasonZh": "跟隨大市向上，暫無公司層面消息。",
           "reasonUrl": "",
           "publisher": ""
         },
         {
-          "sym": "1928.HK",
-          "name": "Sands China",
-          "nameZh": "金沙中國",
-          "price": 10.39,
-          "changePct": -2.2577588761464207,
+          "sym": "0293.HK",
+          "name": "Cathay Pacific Airways",
+          "nameZh": "國泰航空",
+          "price": 16,
+          "changePct": 2.2364242172588256,
+          "currency": "HKD",
+          "direction": "up",
+          "reason": "Chase Ultimate Rewards adds Cathay Pacific and Qantas as 1:1 transfer partners",
+          "reasonZh": "",
+          "reasonUrl": "https://finance.yahoo.com/personal-finance/credit-cards/article/chase-ultimate-rewards-adds-cathay-pacific-and-qantas-as-11-transfer-partners-172710613.html",
+          "publisher": "Yahoo Personal Finance"
+        }
+      ],
+      "losers": [
+        {
+          "sym": "0700.HK",
+          "name": "Tencent Holdings",
+          "nameZh": "騰訊控股",
+          "price": 348.4,
+          "changePct": -6.545062954786007,
           "currency": "HKD",
           "direction": "down",
-          "reason": "Sands China's Community Revitalization Programme Unveils 'The Hall of Glory - Iec Long Firecracker Factory'",
+          "reason": "TENCENT ANNOUNCES 2026 THIRD QUARTER RESULTS",
           "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/media-advertising/articles/sands-chinas-community-revitalization-programme-130400363.html",
+          "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/tencent-announces-2026-third-quarter-125900814.html",
           "publisher": "PR Newswire"
+        },
+        {
+          "sym": "0992.HK",
+          "name": "Lenovo Group",
+          "nameZh": "聯想集團",
+          "price": 16.25,
+          "changePct": -5.523260004653041,
+          "currency": "HKD",
+          "direction": "down",
+          "reason": "Lenovo Group: Q2 Financial Results 2026/27",
+          "reasonZh": "",
+          "reasonUrl": "https://finance.yahoo.com/technology/articles/lenovo-group-q2-financial-results-042000005.html",
+          "publisher": "Business Wire"
+        },
+        {
+          "sym": "9988.HK",
+          "name": "Alibaba Group Holding",
+          "nameZh": "阿里巴巴",
+          "price": 80.55,
+          "changePct": -5.513192901163855,
+          "currency": "HKD",
+          "direction": "down",
+          "reason": "Jefferies Lowers Alibaba Group Price Target to $161 From $192, Buy Rating Kept",
+          "reasonZh": "",
+          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/jefferies-lowers-alibaba-group-price-180824973.html",
+          "publisher": "MT Newswires"
         }
       ]
     },
-    "upCount": 6,
+    "upCount": 7,
     "downCount": 24,
     "total": 31
   },
-  "brief": "US Market Recap — Wednesday, November 18, 2026\n\nMarket overview\n- Indices: SPX -0.2% to 7,323.63 · COMP +0.4% to 24,429.89 · DJI -1.1% to 50,198.17 · RUT +0.5% to 2,714.31.\n- Drivers: Wall Street ends mixed after Nvidia earnings, Fed minutes; U.S. Stocks Mixed, Nvidia Down Again Ahead of Anthropic IPO.\n- Cross-asset: 10Y 5.07% (-4bp) · DXY 103.81 (+0.3%) · WTI $82.07 (-4.6%) · VIX 24.56 (-3.5%).\n- Tone: cautiously positive. The S&P 500 is -3.9% over five sessions and the AI complex rose in 13 of 23 names.\n\nHighlighted stocks\n- NTSK (+12.7%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- OKTA (+12.1%) — Palo Alto Soars 7%, Okta Up 11% as DHS Chief Warns of “A Severe Cyber Threat”\n- S (+10.4%) — AI Risks Lift Cyber Stocks as Software Looks to Shrug Off Slump\n- HUM (-13.0%) — UnitedHealth Sinks 12% on CMS Fraud Rule as Warren Says Giants “Take a Cut at Every Step”\n- UNH (-10.2%) — Sector Update: Healthcare Stocks Fall Late Afternoon\n- CBRS (-9.6%) — Oracle Warns Memory Shortages Could Constrain AI Infrastructure for Years\n\nAI-related stocks\n- CRWD (+7.9%) — AI Risks Lift Cyber Stocks as Software Looks to Shrug Off Slump\n- AMD (+5.3%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- ANET (+4.0%) — Cisco Drops 7% Post Earnings: Should You Buy the Stock on the Dip?\n- DELL (-3.0%) — Citi Bank Slashes Dell And HPE Price Targets Ahead Of Earnings\n- NVDA (-2.9%) — No company-specific catalyst in available headlines; sold off with the broader tape.\n\nHong Kong market\n- Indices: HSI -1.0% to 23,294.75 · HSTECH -0.6% to 3,736.33 · HSCE -1.0% to 7,836.27.\n- Breadth: 6 of 31 focus stocks advanced; 24 declined.\n- 0992.HK (+4.5%) — Klique Joins Lenovo AI Innovators, Bringing Its Enterprise AI Control Plane to Lenovo Hybrid AI Factory\n- 1347.HK (+3.8%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 2331.HK (-20.2%) — Li Ning Co Ltd's Dividend Analysis\n- 9618.HK (-7.2%) — No company-specific catalyst in available headlines; sold off with the broader tape.\n\nNot financial advice.",
-  "briefZh": "美股收市摘要 — 2026年11月18日星期三\n\n市場概覽\n- 指數：標普500 -0.2% 至 7,323.63 · 納斯達克綜合 +0.4% 至 24,429.89 · 道瓊斯 -1.1% 至 50,198.17 · 羅素2000 +0.5% 至 2,714.31。\n- 消息面：Wall Street ends mixed after Nvidia earnings, Fed minutes；U.S. Stocks Mixed, Nvidia Down Again Ahead of Anthropic IPO。\n- 跨資產：10年期債息 5.07%（-4bp）· 美匯指數 103.81（+0.3%）· 紐約期油 $82.07（-4.6%）· VIX 24.56（-3.5%）。\n- 市況：審慎向好。標普500 五個交易日跌 3.9%；AI 板塊 23 隻中有 13 隻上升。\n\n重點股票\n- NTSK（+12.7%）— 跟隨大市向上，暫無公司層面消息。\n- OKTA（+12.1%）— Palo Alto Soars 7%, Okta Up 11% as DHS Chief Warns of “A Severe Cyber Threat”\n- S（+10.4%）— AI Risks Lift Cyber Stocks as Software Looks to Shrug Off Slump\n- HUM（-13.0%）— UnitedHealth Sinks 12% on CMS Fraud Rule as Warren Says Giants “Take a Cut at Every Step”\n- UNH（-10.2%）— Sector Update: Healthcare Stocks Fall Late Afternoon\n- CBRS（-9.6%）— Oracle Warns Memory Shortages Could Constrain AI Infrastructure for Years\n\nAI 相關股票\n- CRWD（+7.9%）— AI Risks Lift Cyber Stocks as Software Looks to Shrug Off Slump\n- AMD（+5.3%）— 跟隨大市向上，暫無公司層面消息。\n- ANET（+4.0%）— Cisco Drops 7% Post Earnings: Should You Buy the Stock on the Dip?\n- DELL（-3.0%）— Citi Bank Slashes Dell And HPE Price Targets Ahead Of Earnings\n- NVDA（-2.9%）— 跟隨大市向下，暫無公司層面消息。\n\n香港市場\n- 指數：恒生指數 -1.0% 至 23,294.75 · 恒生科技指數 -0.6% 至 3,736.33 · 國企指數 -1.0% 至 7,836.27。\n- 焦點股 31 隻中，6 隻上升、24 隻下跌。\n- 聯想集團（+4.5%）— Klique Joins Lenovo AI Innovators, Bringing Its Enterprise AI Control Plane to Lenovo Hybrid AI Factory\n- 華虹半導體（+3.8%）— 跟隨大市向上，暫無公司層面消息。\n- 李寧（-20.2%）— Li Ning Co Ltd's Dividend Analysis\n- 京東集團（-7.2%）— 跟隨大市向下，暫無公司層面消息。\n\n以上不構成投資建議。"
+  "brief": "US Market Recap — Thursday, November 19, 2026\n\nMarket overview\n- Indices: SPX -2.0% to 7,175.83 · COMP -2.3% to 23,879.20 · DJI -2.2% to 49,097.06 · RUT -2.2% to 2,655.11.\n- Drivers: U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO; Anthropic soars in record Wall Street debut.\n- Cross-asset: 10Y 5.05% (-1bp) · DXY 103.92 (+0.1%) · WTI $82.90 (-0.4%) · VIX 28.44 (+15.8%).\n- Tone: risk-off. The S&P 500 is -5.5% over five sessions and the AI complex fell in 22 of 23 names.\n\nHighlighted stocks\n- INSM (+20.6%) — Sanofi Reportedly Gears Up For The Biggest Biotech Deal In Years\n- ANT (+17.1%) — Anthropic’s Record IPO Is Good News for Hut 8. Here’s the Number That Matters\n- TU (+13.4%) — S&P/TSX Composite Index Falls to More Than Five-Month Low\n- WSM (-15.2%) — Williams-Sonoma (WSM) Q3 2026 Earnings Call Transcript\n- NTES (-11.4%) — What NetEase (NTES) Said on Its Q3 Earnings Call\n- ZM (-9.6%) — Insights Into Zoom (ZM) Q3: Wall Street Projections for Key Metrics\n\nAI-related stocks\n- CRWD (+2.7%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- AMD (-7.7%) — Update: Update: Advanced Micro Devices Shares Fall Amid Hunterbrook Media Report on China Ties\n- VRT (-4.9%) — GE Vernova Is Down 34% From Its July High Despite 3 Guidance Raises. Is It Time to Buy?\n\nHong Kong market\n- Indices: HSI -0.9% to 22,841.62 · HSTECH -2.3% to 3,649.14 · HSCE -0.9% to 7,690.34.\n- Breadth: 7 of 31 focus stocks advanced; 24 declined.\n- 1347.HK (+8.0%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 0981.HK (+2.6%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 0700.HK (-6.5%) — TENCENT ANNOUNCES 2026 THIRD QUARTER RESULTS\n- 0992.HK (-5.5%) — Lenovo Group: Q2 Financial Results 2026/27\n\nNot financial advice.",
+  "briefZh": "美股收市摘要 — 2026年11月19日星期四\n\n市場概覽\n- 指數：標普500 -2.0% 至 7,175.83 · 納斯達克綜合 -2.3% 至 23,879.20 · 道瓊斯 -2.2% 至 49,097.06 · 羅素2000 -2.2% 至 2,655.11。\n- 消息面：U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO；Anthropic soars in record Wall Street debut。\n- 跨資產：10年期債息 5.05%（-1bp）· 美匯指數 103.92（+0.1%）· 紐約期油 $82.90（-0.4%）· VIX 28.44（+15.8%）。\n- 市況：避險。標普500 五個交易日跌 5.5%；AI 板塊 23 隻中有 1 隻上升。\n\n重點股票\n- INSM（+20.6%）— Sanofi Reportedly Gears Up For The Biggest Biotech Deal In Years\n- ANT（+17.1%）— Anthropic’s Record IPO Is Good News for Hut 8. Here’s the Number That Matters\n- TU（+13.4%）— S&P/TSX Composite Index Falls to More Than Five-Month Low\n- WSM（-15.2%）— Williams-Sonoma (WSM) Q3 2026 Earnings Call Transcript\n- NTES（-11.4%）— What NetEase (NTES) Said on Its Q3 Earnings Call\n- ZM（-9.6%）— Insights Into Zoom (ZM) Q3: Wall Street Projections for Key Metrics\n\nAI 相關股票\n- CRWD（+2.7%）— 跟隨大市向上，暫無公司層面消息。\n- AMD（-7.7%）— Update: Update: Advanced Micro Devices Shares Fall Amid Hunterbrook Media Report on China Ties\n- VRT（-4.9%）— GE Vernova Is Down 34% From Its July High Despite 3 Guidance Raises. Is It Time to Buy?\n\n香港市場\n- 指數：恒生指數 -0.9% 至 22,841.62 · 恒生科技指數 -2.3% 至 3,649.14 · 國企指數 -0.9% 至 7,690.34。\n- 焦點股 31 隻中，7 隻上升、24 隻下跌。\n- 華虹半導體（+8.0%）— 跟隨大市向上，暫無公司層面消息。\n- 中芯國際（+2.6%）— 跟隨大市向上，暫無公司層面消息。\n- 騰訊控股（-6.5%）— TENCENT ANNOUNCES 2026 THIRD QUARTER RESULTS\n- 聯想集團（-5.5%）— Lenovo Group: Q2 Financial Results 2026/27\n\n以上不構成投資建議。"
 }
