@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generatedAt": "2026-11-20T23:44:07.909Z",
-    "generatedAtHKT": "Sat, 21 Nov 2026, 07:44",
-    "todayET": "2026-11-20",
-    "todayHKT": "2026-11-21",
-    "weekdayET": "Friday",
+    "generatedAt": "2026-11-21T23:33:58.753Z",
+    "generatedAtHKT": "Sun, 22 Nov 2026, 07:33",
+    "todayET": "2026-11-21",
+    "todayHKT": "2026-11-22",
+    "weekdayET": "Saturday",
     "sessionDate": "2026-11-20",
     "sessionLabel": "Friday, November 20, 2026",
     "sessionLabelZh": "2026年11月20日星期五",
     "sessionCloseET": "16:00 ET",
-    "weekend": false,
-    "note": "Latest completed US session.",
-    "noteZh": "最新完成的美股交易日。",
+    "weekend": true,
+    "note": "US markets are closed today (weekend). Showing the last completed session.",
+    "noteZh": "今天美股休市（週末），以下為對上一個交易日的總結。",
     "tone": "Risk-off",
-    "wordCount": 356,
-    "wordCountZh": 1471,
+    "wordCount": 317,
+    "wordCountZh": 1213,
     "failures": [],
     "failureCount": 0,
     "sources": [
@@ -60,8 +60,8 @@
       "nameZh": "納斯達克綜合",
       "short": "COMP",
       "price": 22617.732,
-      "changePct": -5.282701422770042,
-      "weekChangePct": -10.019534148628917,
+      "changePct": -5.282709601959734,
+      "weekChangePct": -10.019541918775554,
       "spark": [
         25253.140625,
         25065.869140625,
@@ -72,7 +72,7 @@
         24328.380859375,
         24429.880859375,
         23879.19921875,
-        22617.732421875
+        22617.73046875
       ]
     },
     {
@@ -101,9 +101,9 @@
       "name": "Russell 2000",
       "nameZh": "羅素2000",
       "short": "RUT",
-      "price": 2581.7896,
-      "changePct": -2.7614883629748843,
-      "weekChangePct": -7.478989001340086,
+      "price": 2581.79,
+      "changePct": -2.761469972730024,
+      "weekChangePct": -7.478971503293086,
       "spark": [
         2840.81005859375,
         2821.3798828125,
@@ -114,7 +114,7 @@
         2701.8701171875,
         2714.31005859375,
         2655.110107421875,
-        2581.78955078125
+        2581.7900390625
       ]
     }
   ],
@@ -124,7 +124,7 @@
       "label": "US 10Y yield",
       "labelZh": "美國10年期債息",
       "display": "4.91%",
-      "changePct": -2.7711865014688364,
+      "changePct": -2.771177062887009,
       "changeBp": -14.000004577636727
     },
     {
@@ -132,15 +132,15 @@
       "label": "US Dollar (DXY)",
       "labelZh": "美匯指數",
       "display": "103.84",
-      "changePct": -0.0577528268595251,
+      "changePct": -0.08662556878089589,
       "changeBp": null
     },
     {
       "key": "wti",
       "label": "WTI crude",
       "labelZh": "紐約期油",
-      "display": "$83.62",
-      "changePct": 0.4927336457402731,
+      "display": "$83.41",
+      "changePct": 0.9253746916632499,
       "changeBp": null
     },
     {
@@ -154,30 +154,17 @@
   ],
   "overview": [
     "Indices: SPX -3.7% to 6,910.39 · COMP -5.3% to 22,617.73 · DJI -1.9% to 48,147.33 · RUT -2.8% to 2,581.79.",
-    "Drivers: Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive; Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down.",
-    "Cross-asset: 10Y 4.91% (-14bp) · DXY 103.84 (-0.1%) · WTI $83.62 (+0.5%) · VIX 35.89 (+26.2%).",
+    "Drivers: no single macro catalyst dominated the session.",
+    "Cross-asset: 10Y 4.91% (-14bp) · DXY 103.84 (-0.1%) · WTI $83.41 (+0.9%) · VIX 35.89 (+26.2%).",
     "Tone: risk-off. The S&P 500 is -8.6% over five sessions and the AI complex fell in 23 of 23 names."
   ],
   "overviewZh": [
     "指數：標普500 -3.7% 至 6,910.39 · 納斯達克綜合 -5.3% 至 22,617.73 · 道瓊斯 -1.9% 至 48,147.33 · 羅素2000 -2.8% 至 2,581.79。",
-    "消息面：Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive；Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down。",
-    "跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.84（-0.1%）· 紐約期油 $83.62（+0.5%）· VIX 35.89（+26.2%）。",
+    "消息面：本交易日未有單一主導因素。",
+    "跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.84（-0.1%）· 紐約期油 $83.41（+0.9%）· VIX 35.89（+26.2%）。",
     "市況：避險。標普500 五個交易日跌 8.6%；AI 板塊 23 隻中有 0 隻上升。"
   ],
-  "drivers": [
-    {
-      "text": "Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive",
-      "publisher": "Investor's Business Daily",
-      "url": "https://finance.yahoo.com/m/4b546235-124e-3fa4-b951-41a067ff7bf2/stock-market-today%3A-nasdaq.html",
-      "zh": "Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive"
-    },
-    {
-      "text": "Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down",
-      "publisher": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
-      "zh": "Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down"
-    }
-  ],
+  "drivers": [],
   "movers": {
     "gainers": [
       {
@@ -208,10 +195,10 @@
         "price": 13.75,
         "changePct": 4.24564,
         "direction": "up",
-        "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
-        "reasonZh": "跟隨大市向上，暫無公司層面消息。",
-        "reasonUrl": "",
-        "publisher": ""
+        "reason": "Rocket Companies (RKT) Just Got a Major Win — Wall Street Is Reacting",
+        "reasonZh": "",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/rocket-companies-rkt-just-got-071103140.html",
+        "publisher": "Insider Monkey"
       }
     ],
     "losers": [
@@ -221,10 +208,10 @@
         "price": 81.31,
         "changePct": -16.106068,
         "direction": "down",
-        "reason": "Bloom Energy Tumbles 10% Despite BMO Upgrade With $230 Target; FuelCell Energy Slides 7%, Plug Power Drops 3%",
+        "reason": "Is Nebius Group N.V. (NBIS) Still Overvalued?",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-tumbles-10-despite-155300665.html",
-        "publisher": "24/7 Wall St."
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/nebius-group-n-v-nbis-145215381.html",
+        "publisher": "Insider Monkey"
       },
       {
         "sym": "SNDK",
@@ -232,10 +219,10 @@
         "price": 79.24,
         "changePct": -16.054874,
         "direction": "down",
-        "reason": "Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+        "reason": "SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-plunges-13-barron-174104365.html",
-        "publisher": "24/7 Wall St."
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-sinks-21-week-165056332.html",
+        "publisher": "TIKR"
       },
       {
         "sym": "CLS",
@@ -712,10 +699,10 @@
           152.1999969482422
         ],
         "direction": "down",
-        "reason": "Arm Just Dropped 21% in a Month. Will ARM Stock Hit $150 or $200 First?",
+        "reason": "SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/arm-just-dropped-21-month-200515633.html",
-        "publisher": "24/7 Wall St."
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/softbank-falls-14-72-arm-101747234.html",
+        "publisher": "TIKR"
       },
       {
         "sym": "NVDA",
@@ -737,10 +724,10 @@
           125.52999877929688
         ],
         "direction": "down",
-        "reason": "NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices",
+        "reason": "Nvidia faces US accounting probe amid deepening turmoil: media",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-clocks-worst-week-233812270.html",
-        "publisher": "Stocktwits"
+        "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/nvidia-faces-us-accounting-probe-215354861.html",
+        "publisher": "AFP"
       }
     ],
     "upCount": 0,
@@ -748,9 +735,9 @@
     "total": 23
   },
   "hk": {
-    "sessionDate": "2026-11-19",
-    "sessionLabel": "Thursday, November 19, 2026",
-    "sessionLabelZh": "2026年11月19日星期四",
+    "sessionDate": "2026-11-20",
+    "sessionLabel": "Friday, November 20, 2026",
+    "sessionLabelZh": "2026年11月20日星期五",
     "indices": [
       {
         "sym": "^HSI",
@@ -758,10 +745,9 @@
         "nameZh": "恒生指數",
         "short": "HSI",
         "price": 22410.8,
-        "changePct": -1.945205934277039,
-        "weekChangePct": -4.860483463817989,
+        "changePct": -1.8861112985145922,
+        "weekChangePct": -5.190031341585266,
         "spark": [
-          24481.859375,
           24448.94921875,
           24557.0390625,
           24315.919921875,
@@ -770,7 +756,8 @@
           23753.83984375,
           23508.169921875,
           23294.75,
-          22841.619140625
+          22841.619140625,
+          22410.80078125
         ]
       },
       {
@@ -792,10 +779,9 @@
         "nameZh": "國企指數",
         "short": "HSCE",
         "price": 7554.37,
-        "changePct": -1.8622402675958272,
-        "weekChangePct": -4.547981229853326,
+        "changePct": -1.7680587506546108,
+        "weekChangePct": -4.827190301512774,
         "spark": [
-          8274.099609375,
           8260.150390625,
           8265.8095703125,
           8171.4501953125,
@@ -804,7 +790,8 @@
           7981.5400390625,
           7904.3701171875,
           7836.27001953125,
-          7690.33984375
+          7690.33984375,
+          7554.3701171875
         ]
       }
     ],
@@ -831,10 +818,10 @@
           "changePct": 0.6153869628906294,
           "currency": "HKD",
           "direction": "up",
-          "reason": "Lenovo Group: Q2 Financial Results 2026/27",
+          "reason": "Lenovo's AI Server Surge Puts $100 Billion Within Sight",
           "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/technology/articles/lenovo-group-q2-financial-results-042000005.html",
-          "publisher": "Business Wire"
+          "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/lenovos-ai-server-surge-puts-180018185.html",
+          "publisher": "GuruFocus.com"
         }
       ],
       "losers": [
@@ -846,10 +833,10 @@
           "changePct": -17.602993563876858,
           "currency": "HKD",
           "direction": "down",
-          "reason": "NetEase Reports 1.8% Decline in Third-Quarter Revenue to RMB27.9 Billion as Net Profit Reaches RMB8.4 Billion",
+          "reason": "NetEase shares slump as Q3 earnings disappoint",
           "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/netease-reports-1-8-decline-152327325.html",
-          "publisher": "InvestorsHub"
+          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/netease-shares-slump-q3-earnings-052049734.html",
+          "publisher": "Investing.com"
         },
         {
           "sym": "1024.HK",
@@ -859,10 +846,10 @@
           "changePct": -11.371530968419808,
           "currency": "HKD",
           "direction": "down",
-          "reason": "Kuaishou Technology Announces Third Quarter 2026 Unaudited Financial Results",
+          "reason": "China’s Kuaishou slumps to record low after weak Q3 results",
           "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/kuaishou-technology-announces-third-quarter-084200394.html",
-          "publisher": "PR Newswire"
+          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/china-kuaishou-slumps-record-low-061651762.html",
+          "publisher": "Investing.com"
         },
         {
           "sym": "1347.HK",
@@ -883,6 +870,6 @@
     "downCount": 28,
     "total": 31
   },
-  "brief": "US Market Recap — Friday, November 20, 2026\n\nMarket overview\n- Indices: SPX -3.7% to 6,910.39 · COMP -5.3% to 22,617.73 · DJI -1.9% to 48,147.33 · RUT -2.8% to 2,581.79.\n- Drivers: Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive; Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down.\n- Cross-asset: 10Y 4.91% (-14bp) · DXY 103.84 (-0.1%) · WTI $83.62 (+0.5%) · VIX 35.89 (+26.2%).\n- Tone: risk-off. The S&P 500 is -8.6% over five sessions and the AI complex fell in 23 of 23 names.\n\nHighlighted stocks\n- GPN (+9.9%) — Global Payments shares jump on report of $50B GTCR deal\n- HDB (+4.5%) — Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT (+4.2%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- NBIS (-16.1%) — Bloom Energy Tumbles 10% Despite BMO Upgrade With $230 Target; FuelCell Energy Slides 7%, Plug Power Drops 3%\n- SNDK (-16.1%) — Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff\n- CLS (-16.0%) — Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI-related stocks\n- ARM (-14.1%) — Arm Just Dropped 21% in a Month. Will ARM Stock Hit $150 or $200 First?\n- NVDA (-14.0%) — NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices\n\nHong Kong market\n- Indices: HSI -1.9% to 22,410.80 · HSTECH -3.8% to 3,511.14 · HSCE -1.9% to 7,554.37.\n- Breadth: 2 of 31 focus stocks advanced; 28 declined.\n- 9988.HK (+3.5%) — Alibaba Stocks Fall 1.26% as 53% AI Cloud Growth Meets RMB34.5 Billion Cash Burn\n- 0992.HK (+0.6%) — Lenovo Group: Q2 Financial Results 2026/27\n- 9999.HK (-17.6%) — NetEase Reports 1.8% Decline in Third-Quarter Revenue to RMB27.9 Billion as Net Profit Reaches RMB8.4 Billion\n- 1024.HK (-11.4%) — Kuaishou Technology Announces Third Quarter 2026 Unaudited Financial Results\n\nNot financial advice.",
-  "briefZh": "美股收市摘要 — 2026年11月20日星期五\n\n市場概覽\n- 指數：標普500 -3.7% 至 6,910.39 · 納斯達克綜合 -5.3% 至 22,617.73 · 道瓊斯 -1.9% 至 48,147.33 · 羅素2000 -2.8% 至 2,581.79。\n- 消息面：Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive；Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down。\n- 跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.84（-0.1%）· 紐約期油 $83.62（+0.5%）· VIX 35.89（+26.2%）。\n- 市況：避險。標普500 五個交易日跌 8.6%；AI 板塊 23 隻中有 0 隻上升。\n\n重點股票\n- GPN（+9.9%）— Global Payments shares jump on report of $50B GTCR deal\n- HDB（+4.5%）— Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT（+4.2%）— 跟隨大市向上，暫無公司層面消息。\n- NBIS（-16.1%）— Bloom Energy Tumbles 10% Despite BMO Upgrade With $230 Target; FuelCell Energy Slides 7%, Plug Power Drops 3%\n- SNDK（-16.1%）— Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff\n- CLS（-16.0%）— Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI 相關股票\n- ARM（-14.1%）— Arm Just Dropped 21% in a Month. Will ARM Stock Hit $150 or $200 First?\n- NVDA（-14.0%）— NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices\n\n香港市場\n- 指數：恒生指數 -1.9% 至 22,410.80 · 恒生科技指數 -3.8% 至 3,511.14 · 國企指數 -1.9% 至 7,554.37。\n- 焦點股 31 隻中，2 隻上升、28 隻下跌。\n- 阿里巴巴（+3.5%）— Alibaba Stocks Fall 1.26% as 53% AI Cloud Growth Meets RMB34.5 Billion Cash Burn\n- 聯想集團（+0.6%）— Lenovo Group: Q2 Financial Results 2026/27\n- 網易（-17.6%）— NetEase Reports 1.8% Decline in Third-Quarter Revenue to RMB27.9 Billion as Net Profit Reaches RMB8.4 Billion\n- 快手（-11.4%）— Kuaishou Technology Announces Third Quarter 2026 Unaudited Financial Results\n\n以上不構成投資建議。"
+  "brief": "US Market Recap — Friday, November 20, 2026\n\nUS markets are closed today (Saturday). Below is the last completed session.\n\nMarket overview\n- Indices: SPX -3.7% to 6,910.39 · COMP -5.3% to 22,617.73 · DJI -1.9% to 48,147.33 · RUT -2.8% to 2,581.79.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 4.91% (-14bp) · DXY 103.84 (-0.1%) · WTI $83.41 (+0.9%) · VIX 35.89 (+26.2%).\n- Tone: risk-off. The S&P 500 is -8.6% over five sessions and the AI complex fell in 23 of 23 names.\n\nHighlighted stocks\n- GPN (+9.9%) — Global Payments shares jump on report of $50B GTCR deal\n- HDB (+4.5%) — Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT (+4.2%) — Rocket Companies (RKT) Just Got a Major Win — Wall Street Is Reacting\n- NBIS (-16.1%) — Is Nebius Group N.V. (NBIS) Still Overvalued?\n- SNDK (-16.1%) — SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”\n- CLS (-16.0%) — Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI-related stocks\n- ARM (-14.1%) — SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans\n- NVDA (-14.0%) — Nvidia faces US accounting probe amid deepening turmoil: media\n\nHong Kong market\n- Indices: HSI -1.9% to 22,410.80 · HSTECH -3.8% to 3,511.14 · HSCE -1.8% to 7,554.37.\n- Breadth: 2 of 31 focus stocks advanced; 28 declined.\n- 9988.HK (+3.5%) — Alibaba Stocks Fall 1.26% as 53% AI Cloud Growth Meets RMB34.5 Billion Cash Burn\n- 0992.HK (+0.6%) — Lenovo's AI Server Surge Puts $100 Billion Within Sight\n- 9999.HK (-17.6%) — NetEase shares slump as Q3 earnings disappoint\n- 1024.HK (-11.4%) — China’s Kuaishou slumps to record low after weak Q3 results\n\nNot financial advice.",
+  "briefZh": "美股收市摘要 — 2026年11月20日星期五\n\n今天美股休市（週六）。以下為對上一個交易日的總結。\n\n市場概覽\n- 指數：標普500 -3.7% 至 6,910.39 · 納斯達克綜合 -5.3% 至 22,617.73 · 道瓊斯 -1.9% 至 48,147.33 · 羅素2000 -2.8% 至 2,581.79。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.84（-0.1%）· 紐約期油 $83.41（+0.9%）· VIX 35.89（+26.2%）。\n- 市況：避險。標普500 五個交易日跌 8.6%；AI 板塊 23 隻中有 0 隻上升。\n\n重點股票\n- GPN（+9.9%）— Global Payments shares jump on report of $50B GTCR deal\n- HDB（+4.5%）— Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT（+4.2%）— Rocket Companies (RKT) Just Got a Major Win — Wall Street Is Reacting\n- NBIS（-16.1%）— Is Nebius Group N.V. (NBIS) Still Overvalued?\n- SNDK（-16.1%）— SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”\n- CLS（-16.0%）— Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI 相關股票\n- ARM（-14.1%）— SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans\n- NVDA（-14.0%）— Nvidia faces US accounting probe amid deepening turmoil: media\n\n香港市場\n- 指數：恒生指數 -1.9% 至 22,410.80 · 恒生科技指數 -3.8% 至 3,511.14 · 國企指數 -1.8% 至 7,554.37。\n- 焦點股 31 隻中，2 隻上升、28 隻下跌。\n- 阿里巴巴（+3.5%）— Alibaba Stocks Fall 1.26% as 53% AI Cloud Growth Meets RMB34.5 Billion Cash Burn\n- 聯想集團（+0.6%）— Lenovo's AI Server Surge Puts $100 Billion Within Sight\n- 網易（-17.6%）— NetEase shares slump as Q3 earnings disappoint\n- 快手（-11.4%）— China’s Kuaishou slumps to record low after weak Q3 results\n\n以上不構成投資建議。"
 }
