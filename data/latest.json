@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-11-21T23:33:58.753Z",
-    "generatedAtHKT": "Sun, 22 Nov 2026, 07:33",
-    "todayET": "2026-11-21",
-    "todayHKT": "2026-11-22",
-    "weekdayET": "Saturday",
+    "generatedAt": "2026-11-22T23:38:12.472Z",
+    "generatedAtHKT": "Mon, 23 Nov 2026, 07:38",
+    "todayET": "2026-11-22",
+    "todayHKT": "2026-11-23",
+    "weekdayET": "Sunday",
     "sessionDate": "2026-11-20",
     "sessionLabel": "Friday, November 20, 2026",
     "sessionLabelZh": "2026年11月20日星期五",
@@ -13,8 +13,8 @@
     "note": "US markets are closed today (weekend). Showing the last completed session.",
     "noteZh": "今天美股休市（週末），以下為對上一個交易日的總結。",
     "tone": "Risk-off",
-    "wordCount": 317,
-    "wordCountZh": 1213,
+    "wordCount": 316,
+    "wordCountZh": 1159,
     "failures": [],
     "failureCount": 0,
     "sources": [
@@ -131,16 +131,16 @@
       "key": "dxy",
       "label": "US Dollar (DXY)",
       "labelZh": "美匯指數",
-      "display": "103.84",
-      "changePct": -0.08662556878089589,
+      "display": "103.85",
+      "changePct": 0.03468173936971297,
       "changeBp": null
     },
     {
       "key": "wti",
       "label": "WTI crude",
       "labelZh": "紐約期油",
-      "display": "$83.41",
-      "changePct": 0.9253746916632499,
+      "display": "$82.80",
+      "changePct": -1.4050967587611485,
       "changeBp": null
     },
     {
@@ -155,13 +155,13 @@
   "overview": [
     "Indices: SPX -3.7% to 6,910.39 · COMP -5.3% to 22,617.73 · DJI -1.9% to 48,147.33 · RUT -2.8% to 2,581.79.",
     "Drivers: no single macro catalyst dominated the session.",
-    "Cross-asset: 10Y 4.91% (-14bp) · DXY 103.84 (-0.1%) · WTI $83.41 (+0.9%) · VIX 35.89 (+26.2%).",
+    "Cross-asset: 10Y 4.91% (-14bp) · DXY 103.85 (+0.0%) · WTI $82.80 (-1.4%) · VIX 35.89 (+26.2%).",
     "Tone: risk-off. The S&P 500 is -8.6% over five sessions and the AI complex fell in 23 of 23 names."
   ],
   "overviewZh": [
     "指數：標普500 -3.7% 至 6,910.39 · 納斯達克綜合 -5.3% 至 22,617.73 · 道瓊斯 -1.9% 至 48,147.33 · 羅素2000 -2.8% 至 2,581.79。",
     "消息面：本交易日未有單一主導因素。",
-    "跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.84（-0.1%）· 紐約期油 $83.41（+0.9%）· VIX 35.89（+26.2%）。",
+    "跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.85（+0.0%）· 紐約期油 $82.80（-1.4%）· VIX 35.89（+26.2%）。",
     "市況：避險。標普500 五個交易日跌 8.6%；AI 板塊 23 隻中有 0 隻上升。"
   ],
   "drivers": [],
@@ -724,10 +724,10 @@
           125.52999877929688
         ],
         "direction": "down",
-        "reason": "Nvidia faces US accounting probe amid deepening turmoil: media",
-        "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/technology/ai/articles/nvidia-faces-us-accounting-probe-215354861.html",
-        "publisher": "AFP"
+        "reason": "No company-specific catalyst in available headlines; sold off with the broader tape.",
+        "reasonZh": "跟隨大市向下，暫無公司層面消息。",
+        "reasonUrl": "",
+        "publisher": ""
       }
     ],
     "upCount": 0,
@@ -805,10 +805,10 @@
           "changePct": 3.476095985451577,
           "currency": "HKD",
           "direction": "up",
-          "reason": "Alibaba Stocks Fall 1.26% as 53% AI Cloud Growth Meets RMB34.5 Billion Cash Burn",
+          "reason": "Alibaba (BABA) Stock Price Faces Q2 Results Cash Flow Strain",
           "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/alibaba-stocks-fall-1-26-180818913.html",
-          "publisher": "GuruFocus.com"
+          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/alibaba-baba-stock-price-faces-231434323.html",
+          "publisher": "Simply Wall St."
         },
         {
           "sym": "0992.HK",
@@ -870,6 +870,6 @@
     "downCount": 28,
     "total": 31
   },
-  "brief": "US Market Recap — Friday, November 20, 2026\n\nUS markets are closed today (Saturday). Below is the last completed session.\n\nMarket overview\n- Indices: SPX -3.7% to 6,910.39 · COMP -5.3% to 22,617.73 · DJI -1.9% to 48,147.33 · RUT -2.8% to 2,581.79.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 4.91% (-14bp) · DXY 103.84 (-0.1%) · WTI $83.41 (+0.9%) · VIX 35.89 (+26.2%).\n- Tone: risk-off. The S&P 500 is -8.6% over five sessions and the AI complex fell in 23 of 23 names.\n\nHighlighted stocks\n- GPN (+9.9%) — Global Payments shares jump on report of $50B GTCR deal\n- HDB (+4.5%) — Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT (+4.2%) — Rocket Companies (RKT) Just Got a Major Win — Wall Street Is Reacting\n- NBIS (-16.1%) — Is Nebius Group N.V. (NBIS) Still Overvalued?\n- SNDK (-16.1%) — SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”\n- CLS (-16.0%) — Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI-related stocks\n- ARM (-14.1%) — SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans\n- NVDA (-14.0%) — Nvidia faces US accounting probe amid deepening turmoil: media\n\nHong Kong market\n- Indices: HSI -1.9% to 22,410.80 · HSTECH -3.8% to 3,511.14 · HSCE -1.8% to 7,554.37.\n- Breadth: 2 of 31 focus stocks advanced; 28 declined.\n- 9988.HK (+3.5%) — Alibaba Stocks Fall 1.26% as 53% AI Cloud Growth Meets RMB34.5 Billion Cash Burn\n- 0992.HK (+0.6%) — Lenovo's AI Server Surge Puts $100 Billion Within Sight\n- 9999.HK (-17.6%) — NetEase shares slump as Q3 earnings disappoint\n- 1024.HK (-11.4%) — China’s Kuaishou slumps to record low after weak Q3 results\n\nNot financial advice.",
-  "briefZh": "美股收市摘要 — 2026年11月20日星期五\n\n今天美股休市（週六）。以下為對上一個交易日的總結。\n\n市場概覽\n- 指數：標普500 -3.7% 至 6,910.39 · 納斯達克綜合 -5.3% 至 22,617.73 · 道瓊斯 -1.9% 至 48,147.33 · 羅素2000 -2.8% 至 2,581.79。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.84（-0.1%）· 紐約期油 $83.41（+0.9%）· VIX 35.89（+26.2%）。\n- 市況：避險。標普500 五個交易日跌 8.6%；AI 板塊 23 隻中有 0 隻上升。\n\n重點股票\n- GPN（+9.9%）— Global Payments shares jump on report of $50B GTCR deal\n- HDB（+4.5%）— Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT（+4.2%）— Rocket Companies (RKT) Just Got a Major Win — Wall Street Is Reacting\n- NBIS（-16.1%）— Is Nebius Group N.V. (NBIS) Still Overvalued?\n- SNDK（-16.1%）— SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”\n- CLS（-16.0%）— Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI 相關股票\n- ARM（-14.1%）— SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans\n- NVDA（-14.0%）— Nvidia faces US accounting probe amid deepening turmoil: media\n\n香港市場\n- 指數：恒生指數 -1.9% 至 22,410.80 · 恒生科技指數 -3.8% 至 3,511.14 · 國企指數 -1.8% 至 7,554.37。\n- 焦點股 31 隻中，2 隻上升、28 隻下跌。\n- 阿里巴巴（+3.5%）— Alibaba Stocks Fall 1.26% as 53% AI Cloud Growth Meets RMB34.5 Billion Cash Burn\n- 聯想集團（+0.6%）— Lenovo's AI Server Surge Puts $100 Billion Within Sight\n- 網易（-17.6%）— NetEase shares slump as Q3 earnings disappoint\n- 快手（-11.4%）— China’s Kuaishou slumps to record low after weak Q3 results\n\n以上不構成投資建議。"
+  "brief": "US Market Recap — Friday, November 20, 2026\n\nUS markets are closed today (Sunday). Below is the last completed session.\n\nMarket overview\n- Indices: SPX -3.7% to 6,910.39 · COMP -5.3% to 22,617.73 · DJI -1.9% to 48,147.33 · RUT -2.8% to 2,581.79.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 4.91% (-14bp) · DXY 103.85 (+0.0%) · WTI $82.80 (-1.4%) · VIX 35.89 (+26.2%).\n- Tone: risk-off. The S&P 500 is -8.6% over five sessions and the AI complex fell in 23 of 23 names.\n\nHighlighted stocks\n- GPN (+9.9%) — Global Payments shares jump on report of $50B GTCR deal\n- HDB (+4.5%) — Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT (+4.2%) — Rocket Companies (RKT) Just Got a Major Win — Wall Street Is Reacting\n- NBIS (-16.1%) — Is Nebius Group N.V. (NBIS) Still Overvalued?\n- SNDK (-16.1%) — SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”\n- CLS (-16.0%) — Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI-related stocks\n- ARM (-14.1%) — SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans\n- NVDA (-14.0%) — No company-specific catalyst in available headlines; sold off with the broader tape.\n\nHong Kong market\n- Indices: HSI -1.9% to 22,410.80 · HSTECH -3.8% to 3,511.14 · HSCE -1.8% to 7,554.37.\n- Breadth: 2 of 31 focus stocks advanced; 28 declined.\n- 9988.HK (+3.5%) — Alibaba (BABA) Stock Price Faces Q2 Results Cash Flow Strain\n- 0992.HK (+0.6%) — Lenovo's AI Server Surge Puts $100 Billion Within Sight\n- 9999.HK (-17.6%) — NetEase shares slump as Q3 earnings disappoint\n- 1024.HK (-11.4%) — China’s Kuaishou slumps to record low after weak Q3 results\n\nNot financial advice.",
+  "briefZh": "美股收市摘要 — 2026年11月20日星期五\n\n今天美股休市（週日）。以下為對上一個交易日的總結。\n\n市場概覽\n- 指數：標普500 -3.7% 至 6,910.39 · 納斯達克綜合 -5.3% 至 22,617.73 · 道瓊斯 -1.9% 至 48,147.33 · 羅素2000 -2.8% 至 2,581.79。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 4.91%（-14bp）· 美匯指數 103.85（+0.0%）· 紐約期油 $82.80（-1.4%）· VIX 35.89（+26.2%）。\n- 市況：避險。標普500 五個交易日跌 8.6%；AI 板塊 23 隻中有 0 隻上升。\n\n重點股票\n- GPN（+9.9%）— Global Payments shares jump on report of $50B GTCR deal\n- HDB（+4.5%）— Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week\n- RKT（+4.2%）— Rocket Companies (RKT) Just Got a Major Win — Wall Street Is Reacting\n- NBIS（-16.1%）— Is Nebius Group N.V. (NBIS) Still Overvalued?\n- SNDK（-16.1%）— SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”\n- CLS（-16.0%）— Fabrinet Stock Drops 20% in a Year: Should You Buy it on the Dip?\n\nAI 相關股票\n- ARM（-14.1%）— SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans\n- NVDA（-14.0%）— 跟隨大市向下，暫無公司層面消息。\n\n香港市場\n- 指數：恒生指數 -1.9% 至 22,410.80 · 恒生科技指數 -3.8% 至 3,511.14 · 國企指數 -1.8% 至 7,554.37。\n- 焦點股 31 隻中，2 隻上升、28 隻下跌。\n- 阿里巴巴（+3.5%）— Alibaba (BABA) Stock Price Faces Q2 Results Cash Flow Strain\n- 聯想集團（+0.6%）— Lenovo's AI Server Surge Puts $100 Billion Within Sight\n- 網易（-17.6%）— NetEase shares slump as Q3 earnings disappoint\n- 快手（-11.4%）— China’s Kuaishou slumps to record low after weak Q3 results\n\n以上不構成投資建議。"
 }
