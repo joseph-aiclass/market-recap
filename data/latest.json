@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generatedAt": "2026-11-25T23:46:35.728Z",
-    "generatedAtHKT": "Thu, 26 Nov 2026, 07:46",
-    "todayET": "2026-11-25",
-    "todayHKT": "2026-11-26",
-    "weekdayET": "Wednesday",
+    "generatedAt": "2026-11-26T23:52:10.433Z",
+    "generatedAtHKT": "Fri, 27 Nov 2026, 07:52",
+    "todayET": "2026-11-26",
+    "todayHKT": "2026-11-27",
+    "weekdayET": "Thursday",
     "sessionDate": "2026-11-25",
     "sessionLabel": "Wednesday, November 25, 2026",
     "sessionLabelZh": "2026年11月25日星期三",
     "sessionCloseET": "16:00 ET",
     "weekend": false,
-    "note": "Latest completed US session.",
-    "noteZh": "最新完成的美股交易日。",
+    "note": "US markets are closed today. Showing the last completed session.",
+    "noteZh": "今天美股休市，以下為對上一個交易日的總結。",
     "tone": "Cautiously negative",
-    "wordCount": 378,
-    "wordCountZh": 1478,
+    "wordCount": 368,
+    "wordCountZh": 1337,
     "failures": [],
     "failureCount": 0,
     "sources": [
@@ -60,8 +60,8 @@
       "nameZh": "納斯達克綜合",
       "short": "COMP",
       "price": 23585.803,
-      "changePct": -0.6224791327410162,
-      "weekChangePct": -3.455105368129885,
+      "changePct": -0.622487362128954,
+      "weekChangePct": -3.45511336294988,
       "spark": [
         25366.08984375,
         25136.26953125,
@@ -72,7 +72,7 @@
         22617.73046875,
         24089.560546875,
         23733.5390625,
-        23585.802734375
+        23585.80078125
       ]
     },
     {
@@ -102,8 +102,8 @@
       "nameZh": "羅素2000",
       "short": "RUT",
       "price": 2704.061,
-      "changePct": 0.7121609483743407,
-      "weekChangePct": -0.37759221372114515,
+      "changePct": 0.7121245765179252,
+      "weekChangePct": -0.3776281920168878,
       "spark": [
         2799.06005859375,
         2790.489990234375,
@@ -114,7 +114,7 @@
         2581.7900390625,
         2669.659912109375,
         2684.93994140625,
-        2704.06103515625
+        2704.06005859375
       ]
     }
   ],
@@ -131,53 +131,40 @@
       "key": "dxy",
       "label": "US Dollar (DXY)",
       "labelZh": "美匯指數",
-      "display": "103.70",
-      "changePct": -0.1098144839292492,
+      "display": "103.78",
+      "changePct": 0.10321429554422945,
       "changeBp": null
     },
     {
       "key": "wti",
       "label": "WTI crude",
       "labelZh": "紐約期油",
-      "display": "$83.97",
-      "changePct": 2.340034244403566,
+      "display": "$84.90",
+      "changePct": 1.4579364438980225,
       "changeBp": null
     },
     {
       "key": "vix",
       "label": "VIX",
       "labelZh": "波動率指數",
-      "display": "28.29",
-      "changePct": 7.321700532957776,
+      "display": "26.80",
+      "changePct": -5.266884518370551,
       "changeBp": null
     }
   ],
   "overview": [
     "Indices: SPX -0.3% to 7,182.78 · COMP -0.6% to 23,585.80 · DJI +0.3% to 50,182.95 · RUT +0.7% to 2,704.06.",
-    "Drivers: U.S. Stocks Mixed as Nvidia, AI Rout Continues; Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price.",
-    "Cross-asset: 10Y 4.85% (-6bp) · DXY 103.70 (-0.1%) · WTI $83.97 (+2.3%) · VIX 28.29 (+7.3%).",
+    "Drivers: no single macro catalyst dominated the session.",
+    "Cross-asset: 10Y 4.85% (-6bp) · DXY 103.78 (+0.1%) · WTI $84.90 (+1.5%) · VIX 26.80 (-5.3%).",
     "Tone: cautiously negative. The S&P 500 is -1.9% over five sessions and the AI complex fell in 17 of 23 names."
   ],
   "overviewZh": [
     "指數：標普500 -0.3% 至 7,182.78 · 納斯達克綜合 -0.6% 至 23,585.80 · 道瓊斯 +0.3% 至 50,182.95 · 羅素2000 +0.7% 至 2,704.06。",
-    "消息面：U.S. Stocks Mixed as Nvidia, AI Rout Continues；Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price。",
-    "跨資產：10年期債息 4.85%（-6bp）· 美匯指數 103.70（-0.1%）· 紐約期油 $83.97（+2.3%）· VIX 28.29（+7.3%）。",
+    "消息面：本交易日未有單一主導因素。",
+    "跨資產：10年期債息 4.85%（-6bp）· 美匯指數 103.78（+0.1%）· 紐約期油 $84.90（+1.5%）· VIX 26.80（-5.3%）。",
     "市況：審慎偏淡。標普500 五個交易日跌 1.9%；AI 板塊 23 隻中有 6 隻上升。"
   ],
-  "drivers": [
-    {
-      "text": "U.S. Stocks Mixed as Nvidia, AI Rout Continues",
-      "publisher": "The Wall Street Journal",
-      "url": "https://finance.yahoo.com/m/cfc82c4a-65b9-3492-a0f9-67525676f149/u.s.-stocks-mixed-as-nvidia%2C.html",
-      "zh": "U.S. Stocks Mixed as Nvidia, AI Rout Continues"
-    },
-    {
-      "text": "Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price",
-      "publisher": "Investor's Business Daily",
-      "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html",
-      "zh": "Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price"
-    }
-  ],
+  "drivers": [],
   "movers": {
     "gainers": [
       {
@@ -186,16 +173,16 @@
         "price": 31.15,
         "changePct": 11.4889,
         "direction": "up",
-        "reason": "HPQ earnings analysis: questions answered and next catalysts",
+        "reason": "HP (HPQ) Stock May Be 42% Undervalued After Earnings Focus Returns",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/hpq-earnings-analysis-questions-answered-205027854.html",
-        "publisher": "Investing.com"
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-stock-may-42-111400088.html",
+        "publisher": "Simply Wall St."
       },
       {
         "sym": "LI",
         "name": "Li Auto",
         "price": 11.88,
-        "changePct": 11.02804,
+        "changePct": 11.028,
         "direction": "up",
         "reason": "Li Auto Inc (LI) (Q3 2026) Earnings Call Highlights: Margin Rebound, Positive Free Cash Flow ...",
         "reasonZh": "",
@@ -206,11 +193,11 @@
         "sym": "ASTS",
         "name": "AST SpaceMobile",
         "price": 26.02,
-        "changePct": 10.254238,
+        "changePct": 10.2542,
         "direction": "up",
-        "reason": "ASTS Stock Eyes Worst Month Since 2024: Bulls Cheer Director’s Dip Buy And Bet On A Launch-Fueled Comeback",
+        "reason": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/asts-stock-eyes-worst-month-034146413.html",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/spcx-wins-million-satellite-nod-082559850.html",
         "publisher": "Stocktwits"
       }
     ],
@@ -219,33 +206,33 @@
         "sym": "NTNX",
         "name": "Nutanix",
         "price": 46.3,
-        "changePct": -15.185933,
+        "changePct": -15.1859,
         "direction": "down",
-        "reason": "Nutanix stock drops after earnings beat and CEO succession news",
+        "reason": "Nutanix stock plunges as CEO announces plans to step down",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/nutanix-stock-drops-earnings-beat-151500890.html",
-        "publisher": "Proactive"
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/article/nutanix-stock-plunges-as-ceo-announces-plans-to-step-down-151611485.html",
+        "publisher": "Yahoo Finance"
       },
       {
         "sym": "LRCX",
         "name": "Lam Research",
         "price": 185.01,
-        "changePct": -5.6841397,
+        "changePct": -5.68414,
         "direction": "down",
-        "reason": "Lam Research (LRCX) Stock Dropped, So What Is Driving Attention Now?",
+        "reason": "ASML Sinks 7% in a Week: Dutch Lawmaker Warns the MATCH Act Is “Disastrous for ASML.” Time to Buy?",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lrcx-stock-dropped-211100299.html",
-        "publisher": "Simply Wall St."
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/asml-sinks-7-week-dutch-082850883.html",
+        "publisher": "TIKR"
       },
       {
         "sym": "SNDK",
         "name": "Sandisk",
         "price": 73.61,
-        "changePct": -5.5676675,
+        "changePct": -5.56767,
         "direction": "down",
-        "reason": "SK hynix Falls 5%, Sandisk Down 10% as Asian Chip Stocks Give Back the Huang Rally",
+        "reason": "SK hynix Just Hit a New 52-Week Low After Sinking 9% in a Week. Is the Selling Overdone?",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-falls-5-sandisk-174626911.html",
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-just-hit-52-091411871.html",
         "publisher": "TIKR"
       }
     ]
@@ -712,10 +699,10 @@
           609.8900146484375
         ],
         "direction": "up",
-        "reason": "Meta’s AI shopping push could lift Instagram ad revenue, Jefferies says",
+        "reason": "Meta Faces India Lawsuit Over 5.4 Million Content Restrictions",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/media-advertising/articles/meta-ai-shopping-push-could-190900989.html",
-        "publisher": "Proactive"
+        "reasonUrl": "https://finance.yahoo.com/technology/articles/meta-faces-india-lawsuit-over-180217910.html",
+        "publisher": "GuruFocus.com"
       },
       {
         "sym": "SMCI",
@@ -787,10 +774,10 @@
           103.87999725341797
         ],
         "direction": "down",
-        "reason": "Why Nvidia Stock Is Falling Again",
+        "reason": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-stock-falling-again-185302235.html",
-        "publisher": "Motley Fool"
+        "reasonUrl": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html",
+        "publisher": "GlobeNewswire"
       },
       {
         "sym": "MU",
@@ -812,10 +799,10 @@
           601.25
         ],
         "direction": "down",
-        "reason": "Micron (MU) Suffers a Larger Drop Than the General Market: Key Insights",
+        "reason": "Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts",
         "reasonZh": "",
-        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-suffers-larger-drop-214502791.html",
-        "publisher": "Zacks"
+        "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-4-53-172600974.html",
+        "publisher": "GuruFocus.com"
       }
     ],
     "upCount": 6,
@@ -823,20 +810,19 @@
     "total": 23
   },
   "hk": {
-    "sessionDate": "2026-11-24",
-    "sessionLabel": "Tuesday, November 24, 2026",
-    "sessionLabelZh": "2026年11月24日星期二",
+    "sessionDate": "2026-11-25",
+    "sessionLabel": "Wednesday, November 25, 2026",
+    "sessionLabelZh": "2026年11月25日星期三",
     "indices": [
       {
         "sym": "^HSI",
         "name": "Hang Seng Index",
         "nameZh": "恒生指數",
         "short": "HSI",
-        "price": 21966.01,
-        "changePct": -0.7330760723268437,
-        "weekChangePct": -5.481156276869504,
+        "price": 22226.88,
+        "changePct": -1.141514922786624,
+        "weekChangePct": -5.704033030511169,
         "spark": [
-          24315.919921875,
           24008.55078125,
           23637.599609375,
           23753.83984375,
@@ -845,7 +831,8 @@
           22841.619140625,
           22410.80078125,
           22383.740234375,
-          22219.650390625
+          22219.650390625,
+          21966.009765625
         ]
       },
       {
@@ -853,12 +840,12 @@
         "name": "Hang Seng Tech",
         "nameZh": "恒生科技指數",
         "short": "HSTECH",
-        "price": 3378.26,
-        "changePct": -2.555907778486055,
+        "price": 3417.38,
+        "changePct": 1.157992576059863,
         "weekChangePct": null,
         "spark": [
-          3466.87,
-          3378.26
+          3378.26,
+          3417.38
         ]
       },
       {
@@ -866,11 +853,10 @@
         "name": "Hang Seng China Enterprises",
         "nameZh": "國企指數",
         "short": "HSCE",
-        "price": 7384.94,
-        "changePct": -1.0018613501985407,
-        "weekChangePct": -5.715952718500883,
+        "price": 7493.34,
+        "changePct": -0.9073407883446127,
+        "weekChangePct": -5.759501357152031,
         "spark": [
-          8171.4501953125,
           8056.759765625,
           7937.52978515625,
           7981.5400390625,
@@ -879,44 +865,45 @@
           7690.33984375,
           7554.3701171875,
           7527.97998046875,
-          7452.56005859375
+          7452.56005859375,
+          7384.93994140625
         ]
       }
     ],
     "movers": {
       "gainers": [
         {
-          "sym": "9618.HK",
-          "name": "JD.com,",
-          "nameZh": "京東集團",
-          "price": 100.3,
-          "changePct": 3.34878917857091,
+          "sym": "1347.HK",
+          "name": "Hua Hong Grace Semiconductor",
+          "nameZh": "華虹半導體",
+          "price": 64.75,
+          "changePct": 3.600000000000003,
           "currency": "HKD",
           "direction": "up",
-          "reason": "PDD Holdings Soars 13% in a Week as Operating Profit Jumps 25%. Bernstein Calls It a “Vote for Defensive Growth”",
-          "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-soars-13-week-075454041.html",
-          "publisher": "TIKR"
+          "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
+          "reasonZh": "跟隨大市向上，暫無公司層面消息。",
+          "reasonUrl": "",
+          "publisher": ""
         },
         {
-          "sym": "2331.HK",
-          "name": "Li Ning Company",
-          "nameZh": "李寧",
-          "price": 12.72,
-          "changePct": 1.8414771827498067,
+          "sym": "0992.HK",
+          "name": "Lenovo Group",
+          "nameZh": "聯想集團",
+          "price": 16.79,
+          "changePct": 3.5141900511891366,
           "currency": "HKD",
           "direction": "up",
-          "reason": "Li Ning (SEHK:2331) Stock Looks Above Fair Value Following Its 79% Fall",
+          "reason": "Lenovo (SEHK:992) Stock May Still Look Reasonable On Record AI Revenue",
           "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/li-ning-sehk-2331-stock-191344849.html",
+          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/lenovo-sehk-992-stock-may-031342716.html",
           "publisher": "Simply Wall St."
         },
         {
-          "sym": "0027.HK",
-          "name": "Galaxy Entertainment Group",
-          "nameZh": "銀河娛樂",
-          "price": 32.76,
-          "changePct": 1.4241458060000767,
+          "sym": "0883.HK",
+          "name": "CNOOC",
+          "nameZh": "中國海洋石油",
+          "price": 21.32,
+          "changePct": 3.294575219400553,
           "currency": "HKD",
           "direction": "up",
           "reason": "No company-specific catalyst in available headlines; moved with the broader tape.",
@@ -927,11 +914,11 @@
       ],
       "losers": [
         {
-          "sym": "1347.HK",
-          "name": "Hua Hong Grace Semiconductor",
-          "nameZh": "華虹半導體",
-          "price": 62.5,
-          "changePct": -17.27333226289549,
+          "sym": "0293.HK",
+          "name": "Cathay Pacific Airways",
+          "nameZh": "國泰航空",
+          "price": 14.1,
+          "changePct": -4.2119556678800745,
           "currency": "HKD",
           "direction": "down",
           "reason": "No company-specific catalyst in available headlines; sold off with the broader tape.",
@@ -940,37 +927,37 @@
           "publisher": ""
         },
         {
-          "sym": "0992.HK",
-          "name": "Lenovo Group",
-          "nameZh": "聯想集團",
-          "price": 16.22,
-          "changePct": -11.074564052145487,
+          "sym": "1211.HK",
+          "name": "BYD Company",
+          "nameZh": "比亞迪股份",
+          "price": 56.9,
+          "changePct": -1.811905475818476,
           "currency": "HKD",
           "direction": "down",
-          "reason": "Lenovo Canada Unveils Cyber Monday Deals with New Savings on Laptops, Workstations and Accessories",
+          "reason": "BYD in exclusive talks to buy Ineos plant in France",
           "reasonZh": "",
-          "reasonUrl": "https://finance.yahoo.com/technology/articles/lenovo-canada-unveils-cyber-monday-183300636.html",
-          "publisher": "Business Wire"
+          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/byd-exclusive-talks-buy-ineos-142707837.html",
+          "publisher": "Investing.com"
         },
         {
-          "sym": "0981.HK",
-          "name": "Semiconductor Manufacturing International",
-          "nameZh": "中芯國際",
-          "price": 45.3,
-          "changePct": -7.551021965182558,
+          "sym": "9888.HK",
+          "name": "Baidu,",
+          "nameZh": "百度集團",
+          "price": 59.8,
+          "changePct": -1.482704307358762,
           "currency": "HKD",
           "direction": "down",
-          "reason": "No company-specific catalyst in available headlines; sold off with the broader tape.",
-          "reasonZh": "跟隨大市向下，暫無公司層面消息。",
-          "reasonUrl": "",
-          "publisher": ""
+          "reason": "Alibaba vs. Baidu: which China AI stock offers better risk-adjusted returns",
+          "reasonZh": "",
+          "reasonUrl": "https://finance.yahoo.com/markets/stocks/articles/alibaba-vs-baidu-china-ai-131453070.html",
+          "publisher": "Investing.com"
         }
       ]
     },
-    "upCount": 7,
-    "downCount": 24,
+    "upCount": 25,
+    "downCount": 6,
     "total": 31
   },
-  "brief": "US Market Recap — Wednesday, November 25, 2026\n\nMarket overview\n- Indices: SPX -0.3% to 7,182.78 · COMP -0.6% to 23,585.80 · DJI +0.3% to 50,182.95 · RUT +0.7% to 2,704.06.\n- Drivers: U.S. Stocks Mixed as Nvidia, AI Rout Continues; Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price.\n- Cross-asset: 10Y 4.85% (-6bp) · DXY 103.70 (-0.1%) · WTI $83.97 (+2.3%) · VIX 28.29 (+7.3%).\n- Tone: cautiously negative. The S&P 500 is -1.9% over five sessions and the AI complex fell in 17 of 23 names.\n\nHighlighted stocks\n- HPQ (+11.5%) — HPQ earnings analysis: questions answered and next catalysts\n- LI (+11.0%) — Li Auto Inc (LI) (Q3 2026) Earnings Call Highlights: Margin Rebound, Positive Free Cash Flow ...\n- ASTS (+10.3%) — ASTS Stock Eyes Worst Month Since 2024: Bulls Cheer Director’s Dip Buy And Bet On A Launch-Fueled Comeback\n- NTNX (-15.2%) — Nutanix stock drops after earnings beat and CEO succession news\n- LRCX (-5.7%) — Lam Research (LRCX) Stock Dropped, So What Is Driving Attention Now?\n- SNDK (-5.6%) — SK hynix Falls 5%, Sandisk Down 10% as Asian Chip Stocks Give Back the Huang Rally\n\nAI-related stocks\n- META (+3.4%) — Meta’s AI shopping push could lift Instagram ad revenue, Jefferies says\n- SMCI (+3.1%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- CRM (+2.0%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- ORCL (-5.1%) — Why Nvidia Stock Is Falling Again\n- MU (-4.5%) — Micron (MU) Suffers a Larger Drop Than the General Market: Key Insights\n\nHong Kong market\n- Indices: HSI -0.7% to 21,966.01 · HSTECH -2.6% to 3,378.26 · HSCE -1.0% to 7,384.94.\n- Breadth: 7 of 31 focus stocks advanced; 24 declined.\n- 9618.HK (+3.3%) — PDD Holdings Soars 13% in a Week as Operating Profit Jumps 25%. Bernstein Calls It a “Vote for Defensive Growth”\n- 2331.HK (+1.8%) — Li Ning (SEHK:2331) Stock Looks Above Fair Value Following Its 79% Fall\n- 1347.HK (-17.3%) — No company-specific catalyst in available headlines; sold off with the broader tape.\n- 0992.HK (-11.1%) — Lenovo Canada Unveils Cyber Monday Deals with New Savings on Laptops, Workstations and Accessories\n\nNot financial advice.",
-  "briefZh": "美股收市摘要 — 2026年11月25日星期三\n\n市場概覽\n- 指數：標普500 -0.3% 至 7,182.78 · 納斯達克綜合 -0.6% 至 23,585.80 · 道瓊斯 +0.3% 至 50,182.95 · 羅素2000 +0.7% 至 2,704.06。\n- 消息面：U.S. Stocks Mixed as Nvidia, AI Rout Continues；Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price。\n- 跨資產：10年期債息 4.85%（-6bp）· 美匯指數 103.70（-0.1%）· 紐約期油 $83.97（+2.3%）· VIX 28.29（+7.3%）。\n- 市況：審慎偏淡。標普500 五個交易日跌 1.9%；AI 板塊 23 隻中有 6 隻上升。\n\n重點股票\n- HPQ（+11.5%）— HPQ earnings analysis: questions answered and next catalysts\n- LI（+11.0%）— Li Auto Inc (LI) (Q3 2026) Earnings Call Highlights: Margin Rebound, Positive Free Cash Flow ...\n- ASTS（+10.3%）— ASTS Stock Eyes Worst Month Since 2024: Bulls Cheer Director’s Dip Buy And Bet On A Launch-Fueled Comeback\n- NTNX（-15.2%）— Nutanix stock drops after earnings beat and CEO succession news\n- LRCX（-5.7%）— Lam Research (LRCX) Stock Dropped, So What Is Driving Attention Now?\n- SNDK（-5.6%）— SK hynix Falls 5%, Sandisk Down 10% as Asian Chip Stocks Give Back the Huang Rally\n\nAI 相關股票\n- META（+3.4%）— Meta’s AI shopping push could lift Instagram ad revenue, Jefferies says\n- SMCI（+3.1%）— 跟隨大市向上，暫無公司層面消息。\n- CRM（+2.0%）— 跟隨大市向上，暫無公司層面消息。\n- ORCL（-5.1%）— Why Nvidia Stock Is Falling Again\n- MU（-4.5%）— Micron (MU) Suffers a Larger Drop Than the General Market: Key Insights\n\n香港市場\n- 指數：恒生指數 -0.7% 至 21,966.01 · 恒生科技指數 -2.6% 至 3,378.26 · 國企指數 -1.0% 至 7,384.94。\n- 焦點股 31 隻中，7 隻上升、24 隻下跌。\n- 京東集團（+3.3%）— PDD Holdings Soars 13% in a Week as Operating Profit Jumps 25%. Bernstein Calls It a “Vote for Defensive Growth”\n- 李寧（+1.8%）— Li Ning (SEHK:2331) Stock Looks Above Fair Value Following Its 79% Fall\n- 華虹半導體（-17.3%）— 跟隨大市向下，暫無公司層面消息。\n- 聯想集團（-11.1%）— Lenovo Canada Unveils Cyber Monday Deals with New Savings on Laptops, Workstations and Accessories\n\n以上不構成投資建議。"
+  "brief": "US Market Recap — Wednesday, November 25, 2026\n\nMarket overview\n- Indices: SPX -0.3% to 7,182.78 · COMP -0.6% to 23,585.80 · DJI +0.3% to 50,182.95 · RUT +0.7% to 2,704.06.\n- Drivers: no single macro catalyst dominated the session.\n- Cross-asset: 10Y 4.85% (-6bp) · DXY 103.78 (+0.1%) · WTI $84.90 (+1.5%) · VIX 26.80 (-5.3%).\n- Tone: cautiously negative. The S&P 500 is -1.9% over five sessions and the AI complex fell in 17 of 23 names.\n\nHighlighted stocks\n- HPQ (+11.5%) — HP (HPQ) Stock May Be 42% Undervalued After Earnings Focus Returns\n- LI (+11.0%) — Li Auto Inc (LI) (Q3 2026) Earnings Call Highlights: Margin Rebound, Positive Free Cash Flow ...\n- ASTS (+10.3%) — SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving\n- NTNX (-15.2%) — Nutanix stock plunges as CEO announces plans to step down\n- LRCX (-5.7%) — ASML Sinks 7% in a Week: Dutch Lawmaker Warns the MATCH Act Is “Disastrous for ASML.” Time to Buy?\n- SNDK (-5.6%) — SK hynix Just Hit a New 52-Week Low After Sinking 9% in a Week. Is the Selling Overdone?\n\nAI-related stocks\n- META (+3.4%) — Meta Faces India Lawsuit Over 5.4 Million Content Restrictions\n- SMCI (+3.1%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- CRM (+2.0%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- ORCL (-5.1%) — Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™\n- MU (-4.5%) — Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts\n\nHong Kong market\n- Indices: HSI -1.1% to 22,226.88 · HSTECH +1.2% to 3,417.38 · HSCE -0.9% to 7,493.34.\n- Breadth: 25 of 31 focus stocks advanced; 6 declined.\n- 1347.HK (+3.6%) — No company-specific catalyst in available headlines; moved with the broader tape.\n- 0992.HK (+3.5%) — Lenovo (SEHK:992) Stock May Still Look Reasonable On Record AI Revenue\n- 0293.HK (-4.2%) — No company-specific catalyst in available headlines; sold off with the broader tape.\n- 1211.HK (-1.8%) — BYD in exclusive talks to buy Ineos plant in France\n\nNot financial advice.",
+  "briefZh": "美股收市摘要 — 2026年11月25日星期三\n\n市場概覽\n- 指數：標普500 -0.3% 至 7,182.78 · 納斯達克綜合 -0.6% 至 23,585.80 · 道瓊斯 +0.3% 至 50,182.95 · 羅素2000 +0.7% 至 2,704.06。\n- 消息面：本交易日未有單一主導因素。\n- 跨資產：10年期債息 4.85%（-6bp）· 美匯指數 103.78（+0.1%）· 紐約期油 $84.90（+1.5%）· VIX 26.80（-5.3%）。\n- 市況：審慎偏淡。標普500 五個交易日跌 1.9%；AI 板塊 23 隻中有 6 隻上升。\n\n重點股票\n- HPQ（+11.5%）— HP (HPQ) Stock May Be 42% Undervalued After Earnings Focus Returns\n- LI（+11.0%）— Li Auto Inc (LI) (Q3 2026) Earnings Call Highlights: Margin Rebound, Positive Free Cash Flow ...\n- ASTS（+10.3%）— SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving\n- NTNX（-15.2%）— Nutanix stock plunges as CEO announces plans to step down\n- LRCX（-5.7%）— ASML Sinks 7% in a Week: Dutch Lawmaker Warns the MATCH Act Is “Disastrous for ASML.” Time to Buy?\n- SNDK（-5.6%）— SK hynix Just Hit a New 52-Week Low After Sinking 9% in a Week. Is the Selling Overdone?\n\nAI 相關股票\n- META（+3.4%）— Meta Faces India Lawsuit Over 5.4 Million Content Restrictions\n- SMCI（+3.1%）— 跟隨大市向上，暫無公司層面消息。\n- CRM（+2.0%）— 跟隨大市向上，暫無公司層面消息。\n- ORCL（-5.1%）— Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™\n- MU（-4.5%）— Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts\n\n香港市場\n- 指數：恒生指數 -1.1% 至 22,226.88 · 恒生科技指數 +1.2% 至 3,417.38 · 國企指數 -0.9% 至 7,493.34。\n- 焦點股 31 隻中，25 隻上升、6 隻下跌。\n- 華虹半導體（+3.6%）— 跟隨大市向上，暫無公司層面消息。\n- 聯想集團（+3.5%）— Lenovo (SEHK:992) Stock May Still Look Reasonable On Record AI Revenue\n- 國泰航空（-4.2%）— 跟隨大市向下，暫無公司層面消息。\n- 比亞迪股份（-1.8%）— BYD in exclusive talks to buy Ineos plant in France\n\n以上不構成投資建議。"
 }
